@@ -1,5 +1,8 @@
 package com.example.spring.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class ListingOffer {
     String id;
     String name;

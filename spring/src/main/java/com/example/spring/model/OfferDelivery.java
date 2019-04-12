@@ -4,11 +4,11 @@ public class OfferDelivery {
     Boolean availableForFree;
     OfferPrice lowestPrice;
 
-    public boolean isAvailableForFree() {
+    public Boolean getAvailableForFree() {
         return availableForFree;
     }
 
-    public void setAvailableForFree(boolean availableForFree) {
+    public void setAvailableForFree(Boolean availableForFree) {
         this.availableForFree = availableForFree;
     }
 
