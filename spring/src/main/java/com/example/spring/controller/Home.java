@@ -28,7 +28,7 @@ public class Home {
         HttpEntity entity = new HttpEntity(headers);
 
         ResponseEntity<SearchOffers> response = restTemplate.exchange(
-                "https://api.allegro.pl/offers/listing?phrase=xiaomi+pocophone+128GB", HttpMethod.GET, entity, SearchOffers.class);
+                "https://api.allegro.pl/offers/listing?phrase=xiaomi+pocophone+128GB&category.id=4", HttpMethod.GET, entity, SearchOffers.class);
 
         return ResponseEntity.ok("tes");
     }
