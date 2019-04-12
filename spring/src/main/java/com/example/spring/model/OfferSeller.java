@@ -1,5 +1,7 @@
 package com.example.spring.model;
 
+import java.util.Objects;
+
 public class OfferSeller {
     String id;
     Boolean company;
@@ -27,5 +29,20 @@ public class OfferSeller {
 
     public void setSuperSeller(boolean superSeller) {
         this.superSeller = superSeller;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        OfferSeller that = (OfferSeller) o;
+        return id.equals(that.id) &&
+                Objects.equals(company, that.company) &&
+                Objects.equals(superSeller, that.superSeller);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, company, superSeller);
     }
 }
