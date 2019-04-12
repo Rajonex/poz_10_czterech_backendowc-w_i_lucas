@@ -1,7 +1,7 @@
 package com.example.spring.model;
 
 public class OfferDelivery {
-    boolean availableForFree;
+    Boolean availableForFree;
     OfferPrice lowestPrice;
 
     public boolean isAvailableForFree() {

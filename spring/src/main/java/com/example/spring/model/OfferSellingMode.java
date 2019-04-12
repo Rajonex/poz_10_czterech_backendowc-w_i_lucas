@@ -4,8 +4,8 @@ public class OfferSellingMode {
     String format;
     OfferPrice price;
     OfferPrice fixedPrice;
-    int popularity;
-    int bidCount;
+    Integer popularity;
+    Integer bidCount;
 
     public String getFormat() {
         return format;

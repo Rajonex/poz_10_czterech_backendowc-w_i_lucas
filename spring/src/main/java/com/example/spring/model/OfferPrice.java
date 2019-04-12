@@ -1,7 +1,7 @@
 package com.example.spring.model;
 
 public class OfferPrice {
-    double amount;
+    Double amount;
     String currency;
 
     public double getAmount() {

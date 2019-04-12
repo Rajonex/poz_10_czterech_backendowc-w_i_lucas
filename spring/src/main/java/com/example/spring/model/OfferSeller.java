@@ -2,8 +2,8 @@ package com.example.spring.model;
 
 public class OfferSeller {
     String id;
-    boolean company;
-    boolean superSeller;
+    Boolean company;
+    Boolean superSeller;
 
     public String getId() {
         return id;

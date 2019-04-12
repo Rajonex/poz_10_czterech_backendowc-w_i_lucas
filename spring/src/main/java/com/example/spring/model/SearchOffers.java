@@ -1,6 +1,6 @@
 package com.example.spring.model;
 
-public class SearchOfferts {
+public class SearchOffers {
     ListingResponseOffers items;
     ListingResponseCategories categories;
     ListingResponseSearchMeta searchMeta;

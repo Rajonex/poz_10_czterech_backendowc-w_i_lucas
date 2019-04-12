@@ -3,7 +3,7 @@ package com.example.spring.model;
 public class ListingCategory {
     String id;
     String name;
-    int count;
+    Integer count;
 
     public String getId() {
         return id;

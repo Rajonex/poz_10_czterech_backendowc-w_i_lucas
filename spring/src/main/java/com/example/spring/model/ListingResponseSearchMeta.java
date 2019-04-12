@@ -1,9 +1,9 @@
 package com.example.spring.model;
 
 public class ListingResponseSearchMeta {
-    int availableCount;
-    int totalCount;
-    boolean fallback;
+    Integer availableCount;
+    Integer totalCount;
+    Boolean fallback;
 
     public int getAvailableCount() {
         return availableCount;
