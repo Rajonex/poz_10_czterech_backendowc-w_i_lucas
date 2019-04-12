@@ -28,17 +28,17 @@ public class SimilarySearcherService {
         this.restTemplate = restTemplate;
     }
 
-    public Map<ListingOffer, List<ListingOffer>> searchSimilaryOffers(List<ListingOffer> offers) {
-        Map<ListingOffer, List<ListingOffer>> similaryOffers = new HashMap<>();
+    public Map<String, List<ListingOffer>> searchSimilaryOffers(List<String> offers) {
+        Map<String, List<ListingOffer>> similaryOffers = new HashMap<>();
         HttpHeaders headers = new HttpHeaders();
         headers.set("Header", "value");
         headers.set(HttpHeaders.ACCEPT, "application/vnd.allegro.public.v1+json");
 
         HttpEntity entity = new HttpEntity(headers);
 
-        for (ListingOffer offer : offers) {
+        for (String offer : offers) {
             ResponseEntity<SearchOffers> response = restTemplate.exchange(
-                    "https://api.allegro.pl/offers/listing?phrase=" + offer.getName() + "&category.id=" + offer.getCategory().getId(), HttpMethod.GET, entity, SearchOffers.class);
+                    "https://api.allegro.pl/offers/listing?phrase=" + offer, HttpMethod.GET, entity, SearchOffers.class);
             similaryOffers.put(offer, response.getBody().getItems().getRegular());
             similaryOffers.get(offer).addAll(response.getBody().getItems().getPromoted());
         }

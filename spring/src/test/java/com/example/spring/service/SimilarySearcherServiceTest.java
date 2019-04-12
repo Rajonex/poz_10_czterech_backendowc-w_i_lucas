@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 public class SimilarySearcherServiceTest {
 
     SimilarySearcherService searcherService;
-    List<ListingOffer> offers;
+    List<String> offers;
     ResourceConfiguration configuration;
 
     @Before
@@ -23,17 +23,12 @@ public class SimilarySearcherServiceTest {
         configuration = new ResourceConfiguration();
         searcherService = new SimilarySearcherService(configuration.restTemplate());
         offers = new ArrayList<>();
-        ListingOffer offer = new ListingOffer();
-        offer.setName("xiaomi+pocophone+128GB");
-        OfferCategory category = new OfferCategory();
-        category.setId("4");
-        offer.setCategory(category);
-        offers.add(offer);
+        offers.add("xiaomi+pocophone+128GB");
     }
 
     @Test
     public void searchSimilaryOffers() {
-        Map<ListingOffer, List<ListingOffer>> similaryOffers = searcherService.searchSimilaryOffers(offers);
+        Map<String, List<ListingOffer>> similaryOffers = searcherService.searchSimilaryOffers(offers);
         assertEquals(60, similaryOffers.get(offers.get(0)).size());
     }
 }
