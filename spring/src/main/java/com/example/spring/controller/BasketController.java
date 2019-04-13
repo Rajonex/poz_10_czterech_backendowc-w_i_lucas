@@ -41,7 +41,6 @@ public class BasketController {
     @PostMapping
     public ResponseEntity<?> addToCart(@RequestParam String phrase) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Header", "value");
         headers.set(HttpHeaders.ACCEPT, "application/vnd.allegro.public.v1+json");
 
         HttpEntity entity = new HttpEntity(headers);
@@ -65,7 +64,7 @@ public class BasketController {
         return ResponseEntity.ok().build();
     }
 
-    @GetMapping("/generate")
+    @GetMapping("/proposes")
     public ResponseEntity<List<Basket>> getProposeOffers() {
         Map<ListingOffer, List<ListingOffer>> data = similaritySearcherService.searchSimilaryOffers(
                 shoppingCartService.getProductsInCart());
