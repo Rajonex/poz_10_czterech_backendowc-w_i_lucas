@@ -66,12 +66,28 @@ def get_result_json_objects():
         key = item["key"]
         value = item["value"]
         base_name = key.get("name")
-        for item in value:
-            item_name = item.get("name")
+        jaccard_values = {}
+        for item_val in value:
+            item_name = item_val.get("name")
             jaccard_result = get_jaccard(base_name, item_name)
-            print(jaccard_result)
-            if jaccard_result > 0.3:
-                checked_items.append(item)
+            if jaccard_result in jaccard_values:
+                jaccard_values[jaccard_result].append(item_val)
+            else:   
+                temp_item_array = []
+                temp_item_array.append(item_val)
+                jaccard_values[jaccard_result] = temp_item_array
+
+            if jaccard_result > 0.35:
+                checked_items.append(item_val)
+                jaccard_values[0.0] = jaccard_values.pop(jaccard_result)
+        # jaccard_values_rev = {v: k for k, v in jaccard_values.items()}\
+        print(len(checked_items))
+        while(len(checked_items)<5):
+            # print(max(jaccard_values, key=float))
+            for i in range(len(jaccard_values[max(jaccard_values, key=float)])):
+                checked_items.append(jaccard_values[max(jaccard_values, key=float)][i])
+            jaccard_values[0.0] = jaccard_values.pop(max(jaccard_values))
+        print(len(checked_items))
         result_json_objects["key"] = checked_items
 
     print(result_json_objects)
