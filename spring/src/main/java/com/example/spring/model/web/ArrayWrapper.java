@@ -1,10 +1,13 @@
 package com.example.spring.model.web;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ArrayWrapper {
     private List<MapWrapper> data;
+
+    public ArrayWrapper() {this.data = new ArrayList<>();}
 
     public ArrayWrapper(List<MapWrapper> data) {
         this.data = data;

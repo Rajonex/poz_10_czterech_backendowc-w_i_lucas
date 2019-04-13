@@ -15,11 +15,13 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -78,9 +80,18 @@ public class BasketController {
 
         ArrayWrapper arrayWrapper = new ArrayWrapper(wrappedMap);
 
+        RestTemplate rest = new RestTemplate();
 
+        HttpEntity<ArrayWrapper> request = new HttpEntity<>(arrayWrapper);
+        arrayWrapper = rest.postForObject("http://localhost:9000/api/filter", request, ArrayWrapper.class);
+
+        Map<ListingOffer, List<ListingOffer>> newData = new HashMap<>();
+        for (MapWrapper mapWrapper: arrayWrapper.getData()) {
+            newData.put(mapWrapper.getKey(), mapWrapper.getValue());
+        }
+        
         Heuristic heuristic = new GreedyHeuristic();
-        List<Basket> b = ParcelConverter.convertSellersToParcels(heuristic.run(data, 1));
+        List<Basket> b = ParcelConverter.convertSellersToParcels(heuristic.run(newData, 1));
         return ResponseEntity.ok(b);
     }
 
