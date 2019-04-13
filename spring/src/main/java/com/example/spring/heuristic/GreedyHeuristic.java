@@ -3,9 +3,7 @@ package com.example.spring.heuristic;
 import com.example.spring.heuristic.model.OfferSellerParcel;
 import com.example.spring.model.ListingOffer;
 import com.example.spring.model.OfferSeller;
-import com.example.spring.model.web.Basket;
-import com.example.spring.model.web.parts.Parcel;
-import com.example.spring.service.LowestPriceSearcherService;
+import com.example.spring.service.LowestMaxMinSearcherService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.*;
@@ -13,7 +11,7 @@ import java.util.*;
 public class GreedyHeuristic implements InitialHeuristic {
 
     @Autowired
-    private LowestPriceSearcherService lowestPrice;
+    private LowestMaxMinSearcherService lowestPrice;
 
     private boolean cacheChosenSimilarities;
     private Map<ListingOffer, ListingOffer> cachedSimilaritiesConverts;
