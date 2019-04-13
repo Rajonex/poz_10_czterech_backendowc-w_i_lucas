@@ -97,8 +97,8 @@ public class BasketController {
     }
 
     @GetMapping
-    public ResponseEntity<HashSet<ListingOffer>> getCartItems() {
-        HashSet<ListingOffer> response = shoppingCartService.getProductsInCart();
+    public ResponseEntity<Set<ListingOffer>> getCartItems() {
+        Set<ListingOffer> response = shoppingCartService.getProductsInCart();
         return ResponseEntity.ok(response);
     }
 

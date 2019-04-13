@@ -9,12 +9,13 @@ import org.springframework.web.context.WebApplicationContext;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Set;
 
 @Service
 @Scope(value= WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class ShoppingCartServiceImpl implements ShoppingCartService {
 
-    private HashSet<ListingOffer> products;
+    private Set<ListingOffer> products;
 
     public ShoppingCartServiceImpl() {
         this.products = new HashSet<>();
@@ -31,7 +32,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
     }
 
     @Override
-    public HashSet<ListingOffer> getProductsInCart() {
+    public Set<ListingOffer> getProductsInCart() {
         return this.products;
     }
 }
