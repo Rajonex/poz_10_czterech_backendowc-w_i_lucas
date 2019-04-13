@@ -48,7 +48,7 @@ public class BasketController {
         HttpEntity entity = new HttpEntity(headers);
 
         ResponseEntity<SearchOffers> response = restTemplate.exchange(
-                "https://api.allegro.pl/offers/listing?phrase=" + phrase, HttpMethod.GET, entity, SearchOffers.class);
+                "https://api.allegro.pl/offers/listing?include=sort&sort=-price&phrase=" + phrase, HttpMethod.GET, entity, SearchOffers.class);
 
         ListingResponseOffers items = response.getBody().getItems();
         ListingOffer key;
