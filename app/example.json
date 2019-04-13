@@ -1,0 +1,4102 @@
+{
+    "items": {
+        "promoted": [
+            {
+                "id": "7978787865",
+                "name": "Pocophone F1 6/128GB Niebieski Global EU",
+                "seller": {
+                    "id": "50219150",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": true,
+                    "highlight": true
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/065809/9a64d2f04c8484a7768dee52ff45"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/061eeb/557febfb4e799e90263fe7b42d87"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0605e9/281e2cd44bd6bcb284db199d2042"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/0622fa/52701cd744a6a091953a2ffe6db0"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/069b35/d445aca04186ba434a7405c67a96"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/06d1a1/5d30d50242578bbace8a265395b4"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/0678d9/3d8584eb446c9f1f8a4c83654bf4"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/0624fd/7f4e06634fbe9c16e78ebd408fa4"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1276.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 2
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 38
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7589038919",
+                "name": "Xiaomi Pocophone F1 6/128GB Black Czarny",
+                "seller": {
+                    "id": "47266906",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://6.allegroimg.com/original/030efc/6206aad54d2eb4a1715f401c3ae6"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/034d8a/e1ac9f314800b5494b404c57df54"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1268.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 99
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 32
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7645994634",
+                "name": "POCOPHONE F1 6GB 128GB SNAP UK+EU ŁADOWARKA GRAFIT",
+                "seller": {
+                    "id": "48671459",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.70",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/03ef84/d863d05d4f5bb92c1133162a23fd"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/019069/401995b84c8ba31bf685bc8553d1"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/0117b8/e9e387234ed5b2ac942c0597b365"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/01d4d8/81b6c7434fe8942a6f4e2ab0ccb6"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/013b9f/6e41808141dcba36e8b9efa839ba"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01dc9f/e29c82174fd1b3cccffe2b1e73da"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/012767/be0f7e894d309429e39cd420a159"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/014a76/1fe1966f423b995b157b3a506037"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01c028/32d4ecc3475d9c2c7c99a70eb3ee"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01dccf/7e87c1e14ceeb7a1373469df0b63"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/016488/bde88b8a43f8bf998f2b4fc677f2"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/018df2/fa5db4024cb7a1c600cfb760404a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/012bdc/d739ce8847b1903a8501003a0d6d"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01ea7f/3d7617c849f6941e7da83b47125a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/036176/048abb6d42b48c2467e7462830af"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1359.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 44
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 498
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7660694930",
+                "name": "Smartfon Xiaomi Pocophone F1 6/128GB Dual SIM GPS",
+                "seller": {
+                    "id": "7854942",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://e.allegroimg.com/original/061592/e6348757415ba7c7600159891e2e"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/06abd8/16e58f40448180f477046458e937"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/06f87c/07fa29e5497e96bed59b2d9d1ba4"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/068b4d/252683d341e2baf35861190a3f36"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/0643a5/8091707845c6b4bf06258d980f61"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/067733/3f4ba4b1469a99fd936610b642be"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/06ea83/1ac660c449a288c62647dd670d2b"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/062397/3cb27289401282e8d23cc4a83e25"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/0605cd/cee264ef46f2b99f14540fa22be7"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0377c2/79a1f4d345cb9e05ec1e71780c10"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03d34f/c46afed942a19cfe705e7de2b96c"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03c616/ae98f71a47979c4071f593691fd2"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0390b4/c55505e14c07877ee1615e1615f8"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1549.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 11
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 140
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7771661565",
+                "name": "Xiaomi Pocophone F1 6/128GB BLACK Global",
+                "seller": {
+                    "id": "48463321",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://6.allegroimg.com/original/038dea/c4dd47ec42a9a5a23132abf142a6"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03049e/048c261e4e49afd3a2e12f35e5e6"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/039ace/fd04ad784a06b660f965894c6378"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03b247/84614b294a3281e6b2f4945e75ba"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/032865/4420f098434f9ebe2c4d74924e7a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/030141/e8f46609488e8a9eb6757c223383"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1379.90",
+                        "currency": "PLN"
+                    },
+                    "popularity": 16
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 330
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7836656061",
+                "name": "Xiaomi Pocophone F1 Czarny 128/6GB DualSIM LTE EU",
+                "seller": {
+                    "id": "51162903",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/030d06/85bb722b4f6fb82176c7d75b41fe"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03dd08/b4f1ac234660933db78302e442ce"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/033113/8678c32741eda557022715166918"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/037103/55f0ccd34a3dba5930b26a8bd5fb"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/036e3a/129b50f14359a75e9419c4cea456"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1289.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 24
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 2
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7614680984",
+                "name": "Xiaomi Pocophone F1 6/128GB Blue Niebieski",
+                "seller": {
+                    "id": "47266906",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://9.allegroimg.com/original/03c511/db62c09d4be39b491553ff7318e9"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/034d8a/e1ac9f314800b5494b404c57df54"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1277.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 50
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 15
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7649235517",
+                "name": "POCOPHONE F1 6GB 128GB SNAP UK+EU ŁADOWARKA NIEBIE",
+                "seller": {
+                    "id": "48671459",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.70",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/032189/9786dfce405686b2efee786a4bad"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/019389/8baf55244f798419c85d158d9415"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/010c4b/4daaaf034e6e99ce22b4d55f5310"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/013f82/73415f034de8b86135c40a57ab5a"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/0191e8/971c271943d59fc5f06bbb503f0f"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/0151a2/503c6c3f4011939110f07c634d2c"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/01b6cc/b42f42b445508396e4531105ea78"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0119b1/9e5a44354fd890985b8310f8ca1c"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01c5fb/b304964c436d80e79a93c72ded8f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/010055/73b161444c3b8064f78edb2f4298"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01a4b0/fbb325c64708b4bb6fe1285e2af2"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/0150e9/709e95da4a93b67f53e62292caff"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/01dd05/aa81c55f48438df6f387d7b7eef3"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/010a71/17f129fc4379b12be9c3729e646d"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/033450/f38408f84672a4e5357ef8df1a51"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1659.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 30
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 518
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7932726217",
+                "name": "Xiaomi Pocophone F1 6/128GB BLUE Global",
+                "seller": {
+                    "id": "48463321",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/038296/8cdb4aaf415f91d8676b2850b1ef"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03049e/048c261e4e49afd3a2e12f35e5e6"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/032865/4420f098434f9ebe2c4d74924e7a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/030141/e8f46609488e8a9eb6757c223383"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03f628/15f1edae4bb7b46cb7b11b55b3e1"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03633a/3a1a9eca4a67946aab784184610a"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1397.90",
+                        "currency": "PLN"
+                    },
+                    "popularity": 8
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 412
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7898831128",
+                "name": "Szary Smartfon XIAOMI Pocophone F1 6/128GB",
+                "seller": {
+                    "id": "6879039",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/01d95e/9190eff049a2a49d0ad1152efb7d"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01ec94/23d538d94ef5a1dcb6e82d332adc"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01cb62/dc3a5af64fafb16a5889cad9e1c1"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/019a37/874ef6224c1895fe60dfd7c19386"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/011b33/5195fe534476ab234a0dce6fcd1f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/014046/f26ede3448d69cbc8b8bc247a3b5"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01a739/c240e6b7402697e374f95f63cc6d"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01d31b/546bcdfd4dea9efa6ea2b4daa797"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01fe4c/cfb949c145d3ae6e50e7725c3274"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/019c98/7c15ae204dc196f6442acef6c256"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01b254/acb6a54a4b83b08d10a43b5c1696"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1598.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 9
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 85
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7860546291",
+                "name": "Xiaomi Pocophone F1 Armored 128/6GB DualSIM LTE EU",
+                "seller": {
+                    "id": "51162903",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/032b96/07fba0e641f886f050a2e0ae29ac"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/031cd8/61c1e49141b9a2ad931b244762a4"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03bb24/a8147c364ea9bb397eae6dcbb7a0"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0326af/ed910b214380bd5bc67cadf629ff"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/037bc7/e0a11eaf40c68f0dffb6546705ec"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/031838/af1486e347f99a791176fc68edac"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03e733/c64c107448498a56a8076759eb16"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03e071/f1e84bcf4a968c9d8b3657b58cb9"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0335ea/5013db8949fb9d9329fbc18be83a"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1429.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 1
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 7
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7882400732",
+                "name": "Xiaomi POCOPhone F1 6+128GB EU Black",
+                "seller": {
+                    "id": "43911730",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://3.allegroimg.com/original/03c2c4/8c79c09f4b9e9a8e2959953f9ca3"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1335.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 12
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 63
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7612607574",
+                "name": "Niebieski Smartfon XIAOMI Pocophone F1 6/128GB",
+                "seller": {
+                    "id": "6879039",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://7.allegroimg.com/original/018d62/d9f80e33472a84832dcf7a9f3d67"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/0155f0/bf1f567341588807fef2ed4f4a0c"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/01515a/bb0f7ca24230a3a73617f1101646"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/011424/2b0926a946da8254fd9f9a93f19a"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/01e228/a0e8973b49f18374a6a16235c70b"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/0107ad/5bc404a345269bbdff956314e459"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/011bce/56739fd24c35a4a6af2d6e01360b"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/01678d/4e6a10c844a7ac23b9df99cb1d55"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/01f885/ad74412f472cbe95049385922e1b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01ba01/7375cb5e4273aafaf019c3bd36da"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/01ea34/618cfef54396994c83e2ed93a954"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/01c709/7adf66664c27952a17e92c55f5b2"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1423.68",
+                        "currency": "PLN"
+                    },
+                    "popularity": 1
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 100
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7787652052",
+                "name": "Xiaomi Pocophone F1 6/128GB Dual Sim Czarny",
+                "seller": {
+                    "id": "48643012",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://d.allegroimg.com/original/0189a7/29f819434e01889d590c535896ad"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/011228/da6c2f2d4be5a73b4c2930135569"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/01c287/b0255ab24e9fb61fa2b6f1dc9816"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/01174a/beb14b28420c95fa64e87f0f100c"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/01553e/75b4d4bc40e48cf706d04b80c796"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/013f05/2429f41c43708c96d8b505d70707"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/01ba42/cb707daf432c84e2eeba0244ef0e"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/01135a/a7202be4418791812d5c324e0901"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/01bfa7/0613f9204da6a31ff6237a9ea4b9"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/017b05/af6ed5104f30b1455ee6d534b908"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1347.39",
+                        "currency": "PLN"
+                    },
+                    "popularity": 20
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 130
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7883758144",
+                "name": "Xiaomi Pocophone F1 6/128GB Armored Edition",
+                "seller": {
+                    "id": "40902752",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/034bac/59bce6c64d188e254470ee5cbb1b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/06efbf/ced8ef2240519956ee183941b4a1"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/065cae/1e38c1b74ab48bfb0de096f750ef"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1599.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 198
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7840439920",
+                "name": "Smartfon Xiaomi Pocophone F1 6/128GB Dual SIM GPS",
+                "seller": {
+                    "id": "11339433",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/0106dc/038ca03147e29d4bebbc16936e40"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0160fd/96dd76a54b56be605a889ce2b758"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01cd2f/497cfc8442fa9dea11aaacd4a982"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/018a53/9769c4c840d6b1df699e4fd51322"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1549.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 3
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7548062427",
+                "name": "Xiaomi Pocophone F1 6/128GB Graphite Black EU",
+                "seller": {
+                    "id": "40902752",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://c.allegroimg.com/original/031754/df421c4d4520b97cc9775f77d0cc"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/0619a9/af933de7411091513f5163032c67"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/06c50e/c03a20e340cc9681b326b6b11e7b"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/066b73/567e7ae04a99be165ba6bcb8605d"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/068578/b61628f54bd19bcea840051b64b1"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/06ab10/664ae6a24fd1a259237be67dd635"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/065cae/1e38c1b74ab48bfb0de096f750ef"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/061e23/3d8caee3469e85f0fadeaecfb6ed"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/061c7a/5f4169844aafb6dfe8d192054f6c"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/062b0f/da143e1a4e558ac0c4cf6a087b42"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1519.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 193
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7561892675",
+                "name": "Xiaomi Pocophone F1 6/128GB Steel Blue EU",
+                "seller": {
+                    "id": "40902752",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://6.allegroimg.com/original/06294f/d61f44994516beb42a9bff220b96"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/066d99/a187d8b44dafa382c2cc84c66c8c"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/06e3b6/787ccf0a4b83b749c15d242ef876"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/062e08/c6e673734ec889b411b8b010fc21"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/068578/b61628f54bd19bcea840051b64b1"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/06ab10/664ae6a24fd1a259237be67dd635"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/065cae/1e38c1b74ab48bfb0de096f750ef"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/061e23/3d8caee3469e85f0fadeaecfb6ed"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/061c7a/5f4169844aafb6dfe8d192054f6c"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/064d42/5e5ee1a0420197d7da748107f3e7"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/062b0f/da143e1a4e558ac0c4cf6a087b42"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1519.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 199
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7886257629",
+                "name": "F1 6/128 Polska Dystrybucja + szkło NAJSZYBCIEJ",
+                "seller": {
+                    "id": "46096709",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "5.90",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://6.allegroimg.com/original/03af36/2cbd3f0e45c8aaadd3ffe51471d6"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/0323b2/21515133416391c1574b5344cbd3"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/03560c/f93e660841388bd68bc19cfff9b2"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/031fb2/9a654de14b1bad944a7a58204412"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/03a67f/c9c441d9436d813f5c9f08fcdede"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/03f4eb/b0799cfa4d318b352aebcbdff5d3"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/035f3d/ec3b39f941d1862b096a84adc12c"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/03a8ef/f7d0ec154c20a7c61b44ed07faf4"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/03c1a1/58c3b31246a881f5cea8db560ad0"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03b349/1a8a843f4fa8a2c8cd71d6324da9"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1558.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 4
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7706690219",
+                "name": "XIAOMI POCOPHONE F1 128/6 GLOBAL EU +ETUI+SZKŁO 5D",
+                "seller": {
+                    "id": "20560888",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://e.allegroimg.com/original/03d210/fc5281164466b49988c951ecf37e"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/03976c/1ceb432f40688ca7b5c5be6ddb38"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/030ce6/954c0c0e42f8bf4cf07321afa125"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/03678b/575897d0405389fdc10d004d93fb"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/03e772/8bcb3ba64ae1a5156791406264c8"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/032d7f/b62501144d5598b0586bbde5b37b"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/0323f4/6b2882a446eb83f7f6c922973a57"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1639.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 20
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7981795119",
+                "name": "Xiaomi Pocophone F1 DS 128GB Black",
+                "seller": {
+                    "id": "6124440",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/01033e/1597e56d4f21bf3f9fb6b9313aef"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01f07f/ec6214fb479e856a5d0325f296a8"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0187c4/b3dc369a4671aa31b243f7347402"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/019300/b46caf5140679e1059e0f7e25656"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1484.99",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 22
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7810868304",
+                "name": "Xiaomi Pocophone F1 6/128 GB Czarny Black DualSim",
+                "seller": {
+                    "id": "44367696",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/0367c1/81bc64ad4acc8f533227fd24263e"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/030173/f6424caa4ee68c9b78842b7a595b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03f9e6/4411e33942cd88fd5fe7b3dc00d2"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/03987c/3c8a3710481089ca6e872d1fef3f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03b0c7/e2befcbd43d7825be309eb58971a"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/03c749/693fcdd54dd8b8fc0ce5561a0966"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1499.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 4
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 76
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7787651183",
+                "name": "Xiaomi Pocophone F1 6/128GB Dual Sim Niebieski",
+                "seller": {
+                    "id": "48643012",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://5.allegroimg.com/original/019c19/48fe2cd74d29b900feb67db9bb25"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01893d/c65ec7c444a6afe7d960b2a55cea"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01fe48/ecb34c054268b76b4c8b28fa7dda"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/01330d/a05d367f40b09afbbf09480fb808"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/0138f2/fbe4779c433cbc843d4a4363a66c"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/01fea2/b6180dd941429257ad3d1bfe7ba9"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/0174c1/e6bcbfff45e9adf0bbc3fe83bbd8"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/012aed/7e18e2dc4f33af6cd1b49f83ca41"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/0136c8/a60f14df45819fefe407a53cb58d"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/013bba/a941315f4ef68d3001309dcafa88"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1337.49",
+                        "currency": "PLN"
+                    },
+                    "popularity": 7
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 25
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7840415351",
+                "name": "Xiaomi Pocophone F1 6/128GB Dual Sim Kevlarowy",
+                "seller": {
+                    "id": "48643012",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": true
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/0305ff/9dc50d86474c9f975e9d44fc2382"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/013f05/2429f41c43708c96d8b505d70707"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/01ba42/cb707daf432c84e2eeba0244ef0e"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/01135a/a7202be4418791812d5c324e0901"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/01bfa7/0613f9204da6a31ff6237a9ea4b9"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/017b05/af6ed5104f30b1455ee6d534b908"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1414.71",
+                        "currency": "PLN"
+                    },
+                    "popularity": 6
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 65
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7981910462",
+                "name": "XIAOMI POCOPHONE F1 GRAPHITE BLACK GLOBAL 128/6GB",
+                "seller": {
+                    "id": "49943115",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": true,
+                    "highlight": true
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://5.allegroimg.com/original/03959a/49790993466fbcaf00e5fc42be45"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/0342a0/50dafa0248e79c5128b146756b69"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/035b0c/b1e7f20448db8ded89409996d97b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03a12a/c81be1274369863fc4b837f5776a"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1299.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7901345351",
+                "name": "Xiaomi POCOPhone F1 6+128GB EU Black",
+                "seller": {
+                    "id": "57932938",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/01fad0/02c9774a4382b9aa81e778c19860"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01ba11/b58ea62247d2b23dac0386918753"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1385.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 1
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 18
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7955927908",
+                "name": "POCOPHONE F1 by XIAOMI 6/128GB 3 kolory KRAKÓW",
+                "seller": {
+                    "id": "11303540",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://d.allegroimg.com/original/03f01a/7c4fcc19420b9f94cf455d1f68cd"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/0304e8/65f7bede48d897be92f141d6fa01"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/032b44/7d84e4fe4d42b77ceee277743323"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "AUCTION",
+                    "price": {
+                        "amount": "1335.00",
+                        "currency": "PLN"
+                    },
+                    "bidCount": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                },
+                "publication": {
+                    "endingAt": "2019-04-14T13:38:08.000Z"
+                }
+            },
+            {
+                "id": "7932733715",
+                "name": "Xiaomi Pocophone F1 6/128GB RED Global",
+                "seller": {
+                    "id": "48463321",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/03fce2/be3a53944bcb82a81c8cc635ac58"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03049e/048c261e4e49afd3a2e12f35e5e6"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/032865/4420f098434f9ebe2c4d74924e7a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/030141/e8f46609488e8a9eb6757c223383"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03f628/15f1edae4bb7b46cb7b11b55b3e1"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03633a/3a1a9eca4a67946aab784184610a"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1507.90",
+                        "currency": "PLN"
+                    },
+                    "popularity": 2
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 418
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7956585600",
+                "name": "Xiaomi Pocophone F1 6/128 2Kolory KRAKÓW za 1339zł",
+                "seller": {
+                    "id": "45530599",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": true,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/03c5e4/324328f04a7fa48b4b6d9552696b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03b0d2/2397caa443b28cc2575070910273"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03ca76/4a65d47e4d86acfaaa4094a7fe5a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/033256/a4d9d4ac4decbd9365e717c2ecaa"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0307ea/8afbc47a4820b7b8e36763f62659"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03059d/ccb74ea8417eb40cca6ddbd076f3"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03e70b/4a12a71f49ab8056a6eb810aa70f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0306fa/80d784424f0ca79269f37e7e28c9"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03c0bc/029a8ca0404b813c9646161aee2c"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "AUCTION",
+                    "price": {
+                        "amount": "1339.00",
+                        "currency": "PLN"
+                    },
+                    "bidCount": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                },
+                "publication": {
+                    "endingAt": "2019-04-14T17:39:44.000Z"
+                }
+            }
+        ],
+        "regular": [
+            {
+                "id": "7976862918",
+                "name": "XIAOMI POCOPHONE F1 6GB 128GB + DODATKI",
+                "seller": {
+                    "id": "42205241",
+                    "company": false,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/0308aa/ca0963e446d28f9336939a4c3c25"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03f093/1661cd06472c82271e88193b7ee0"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/032502/ae8e2a36407e840f7cf0c3330a28"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03a970/d84942f74fc89c0c22539f80a9b0"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/039742/f34222e245feae3a7c55b940663a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/038f5e/2f9a0a0e47ef817c12dc9b5681ec"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03c2e3/89d69acb47928ff35dbc611efa16"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03f621/666a15a84479a16001f0e4b8bf29"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03f02f/f0caaf5f4b84be0cd89929c4598a"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1100.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                },
+                "publication": {
+                    "endingAt": "2019-04-20T20:54:53.000Z"
+                }
+            },
+            {
+                "id": "7617153396",
+                "name": "Smartfon Xiaomi Pocophone F1 SNAP 845 6/128 GB GPS",
+                "seller": {
+                    "id": "7854942",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://7.allegroimg.com/original/062d56/7cedc95646118b93bc840482af87"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0646c5/a3ecdfe54b2987c1ec1ef8aea75a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/06cd30/a8f4eb1f4ae1bae915e7c3888dfa"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/06d0f8/71f65d794ed6b9cef7171e70fdb4"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/061b23/4bd1f4c14624a2d919fa0d06d5ef"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/06ab6a/216d0a564483ace22ad9ade7718f"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/065b73/1fa336c1409989383044505523a3"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0662b6/4d115a58468694655437a6b37bba"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/067cae/e848a1714146871ba395f114111c"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/067a72/ce14823c4d3c858d65b9b8bdf893"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/06e75a/c62255ea49d2a40a54037524af84"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1549.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 2
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 118
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7649234235",
+                "name": "POCOPHONE F1 6GB 128GB SNAP UK+EU ŁADOWARKA NIEBIE",
+                "seller": {
+                    "id": "50459842",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.70",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/030b7e/a261f86a4bb4bdb8c6781e9a2e1f"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/016347/3685ad2840948d33b804774b76cd"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/019d1d/ec75c0f549baa0d1361559ea5081"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/01dbd1/ea134f8241c78492595562b43537"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/01563a/d88778c3479da531a8c8d88f3954"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/011f27/362d928e42cfae42996e3e0fe0d6"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/014eb6/593b13c043a69680adea1f58ce37"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/0107e8/7c8ac625466d87c34d8f9b8cf2bc"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/013181/4eae246f47048dd32126ca6ca564"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/015690/3086da94418da249de1d59c2c759"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/016924/f12637764a7a8ba6b73bf3aaf62c"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0331b3/fed282f547bcb3aa72ad76b09263"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1635.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 12
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 585
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7948587707",
+                "name": "Xiaomi Pocophone F1 6/128 GB Niebieski Blue Dual",
+                "seller": {
+                    "id": "44367696",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/03017b/d60298c64d818e7a5a759324bd53"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/031909/f38f8c124b7ab922d5a64ef43be4"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03f9e6/4411e33942cd88fd5fe7b3dc00d2"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/03987c/3c8a3710481089ca6e872d1fef3f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03b0c7/e2befcbd43d7825be309eb58971a"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/03c749/693fcdd54dd8b8fc0ce5561a0966"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1349.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 3
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 97
+                },
+                "category": {
+                    "id": "259443"
+                },
+                "publication": {
+                    "endingAt": "2019-04-22T00:09:59.000Z"
+                }
+            },
+            {
+                "id": "7647516694",
+                "name": "POCOPHONE F1 6GB 128GB SNAP UK+EU ŁADOWARKA GRAFIT",
+                "seller": {
+                    "id": "50459842",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.70",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/03124f/c0f4e8a248a3951eb4ed2172bccd"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/034eb3/4d0e181f4096a1afd50746e9b1cc"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/0106af/e8ee791c440896f0ac6b56096fd7"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/01462e/507cc0a94220b2afd396d69f7550"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/018479/ba0a0b7c4924a90fb7117c1ccda5"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/01c7bb/fbc04c144db8b6508f43c949a681"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/01346f/5590a8264878a59ad061dfa3c9e6"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/01aa48/24893c514626a900a5f638758591"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/01bc64/7c51dbc2426d8a98196737de7411"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01b91c/2abed3084c0cb091f6b958454f0a"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/0180b2/63d2684740d1bbb1ef348fe8034f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/036098/622548ef4971a3e11d0e28ed8209"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1335.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 15
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 582
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7610075941",
+                "name": "POCOPHONE F1 128GB Europejska Dystrybucja SZKŁO 9H",
+                "seller": {
+                    "id": "46096709",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "5.90",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://6.allegroimg.com/original/03af36/2cbd3f0e45c8aaadd3ffe51471d6"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/0323b2/21515133416391c1574b5344cbd3"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/03560c/f93e660841388bd68bc19cfff9b2"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/031fb2/9a654de14b1bad944a7a58204412"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/03a67f/c9c441d9436d813f5c9f08fcdede"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/03f4eb/b0799cfa4d318b352aebcbdff5d3"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/035f3d/ec3b39f941d1862b096a84adc12c"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/03a8ef/f7d0ec154c20a7c61b44ed07faf4"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/03c1a1/58c3b31246a881f5cea8db560ad0"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03b349/1a8a843f4fa8a2c8cd71d6324da9"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1499.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 2
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7895982234",
+                "name": "Xiaomi Pocophone F1 6/128GB GRAPHITE BLACK FV23%",
+                "seller": {
+                    "id": "48660099",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.99",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/032fcc/7da347e844eca3f33340ff835119"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0381c0/b662fbb24481a8169834f6e47612"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/034183/48b8e8d84b6aacbd020316f0cf9f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03784f/1830d6934118a689a3ef641ceecd"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1219.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7649225125",
+                "name": "POCOPHONE F1 6GB 128GB SNAP UK+EU ŁADOWARKA NIEBIE",
+                "seller": {
+                    "id": "50459577",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.70",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/035fa0/87c20486401aa013a449a285e2c6"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/039a3c/877854284d5bb579d778077efedd"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/030c9c/02885b3c4da3a13d9b49f04c41d7"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/0322b2/56c772a747a8a51ec87207efcc64"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/036b1d/9b187f3f4a7eb42cc2539fb8d02c"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/03a238/1af087ed43f1b230fd850b37a175"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/017276/f2ce665249ffbe14884c9dd32a89"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/01485c/aefb9f224a17b25f4e33988f20dc"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/014026/977920a24b349133549db437b1ec"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/0100f0/0151878d4ecda3daead450047af1"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/031108/8eac56014a57a8f8487f0a51f71d"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1739.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 596
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7689922126",
+                "name": "Xiaomi Pocophone F1 6/128GB Rosso Red EU",
+                "seller": {
+                    "id": "40902752",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://c.allegroimg.com/original/03135f/ee0f10314fb48f6582d27eca003c"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/06fc5b/765c5a364c74ae702c796063d0d5"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/0687cb/e38c37d8436394a4d59754f45827"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/06dfbc/b0ed609743e8900bd42e30a775a2"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/065cae/1e38c1b74ab48bfb0de096f750ef"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/061c7a/5f4169844aafb6dfe8d192054f6c"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/064d42/5e5ee1a0420197d7da748107f3e7"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/062b0f/da143e1a4e558ac0c4cf6a087b42"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1519.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 197
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7758250618",
+                "name": "Smartfon Xiaomi Pocophone F1 6/128GB niebieski",
+                "seller": {
+                    "id": "51034832",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.99",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://3.allegroimg.com/original/0349c1/80f7c8a6427ca7320052340e71e3"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/032fba/c73cd0be4e55b75a9bac1b8d839f"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/03351e/77ba08a74875a3324ae0bbbd1712"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/031883/9d0becb94ccea51aa1f81f631cba"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/03b2e6/0af945174ea5bc0fadcf591453be"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/03aa62/db580a54443a9a871c3249cfa48c"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03cc13/6ad0d7bd4751ad36bf25592bd06a"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/03a9e2/be7f564347e0891ea742129f8f02"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/037bae/777d656d442d89486f47722658fa"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/039b68/8bd031764ad4b0b8842fcb128beb"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/031168/795b7f544b7ebfc3b9660035a7fc"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/03a21a/8348f07c4d86b5e8e541f3d0e3af"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/03b4b1/845b6d3f4b9a869bf0234007c935"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/03c1bd/c5b30d534a4890063a08ec82ecb3"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1599.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 1
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 8
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7661237062",
+                "name": "Niebieski Smartfon XIAOMI Pocophone F1 6/128GB",
+                "seller": {
+                    "id": "6879039",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://8.allegroimg.com/original/0168e3/4440d223476386b8264244077328"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/01be70/0d8bd5544666947db2f5a51a85a9"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/01bfe5/671bc39e46fc84effea5c2b03e41"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/0121da/23231ec74fbdb2c26608bcc72ee4"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01f7f5/de939bcf4c888c8951aadf95772a"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/01383e/2e0e83264659ae9e6d54456d6c55"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/01ef2a/c2625c774f698da179de203bffe6"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/013507/111624544f4da920fda39ef663f7"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/013dcf/c42dd6a04b8d91bdf8988bf673b1"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/01485b/c45d7ca34da6b8be56a609822bf2"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/01b238/f0b2e5224b82a95b5f0ec8fb7c9c"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0187f9/807832414a988de79f57ede1552a"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1423.68",
+                        "currency": "PLN"
+                    },
+                    "popularity": 1
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 47
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7814347612",
+                "name": "SMARTFON XIAOMI POCOPHONE F1 6/128GB Czarny Dual !",
+                "seller": {
+                    "id": "5674352",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/0113f6/bb5881ed44d6b02cb21b4b5d2f46"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01f4c9/4c662ffc47f6baca78c34624ed03"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/010a3c/ac19bec248cd8ad0d3314b949bcb"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01d63d/776a41e04843963ba234b7b7da2b"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1598.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 20
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7647518650",
+                "name": "POCOPHONE F1 6GB 128GB SNAP UK+EU ŁADOWARKA GRAFIT",
+                "seller": {
+                    "id": "50459577",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.70",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/03c5df/115c55084019a49bc13018a3ba56"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/03b622/841552574204bda056a8117d8324"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/01ffa0/fb7474b843cfae379bc0ba983c64"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/015ad3/eb0e9b614a65aeb71e5a7b5f176e"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/012fdf/1c82b02b43c295b56c6e72069d8a"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/01bced/c970a907489ba93f1ddf888dcdc8"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/0131f7/04983f604fb1ba75abc9d0c8065b"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/017276/f2ce665249ffbe14884c9dd32a89"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/01485c/aefb9f224a17b25f4e33988f20dc"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/014026/977920a24b349133549db437b1ec"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/0100f0/0151878d4ecda3daead450047af1"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03aace/c86748c54cb2ac16e1e241a1ae10"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1399.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 599
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7793256955",
+                "name": "SMARTFON XIAOMI POCOPHONE F1 6/128GB Czarny Dual !",
+                "seller": {
+                    "id": "5674352",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://8.allegroimg.com/original/016a28/57d2460c4abeba765d9970eded98"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/014ee0/f3b07d00426dad15aacfca913d28"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/01cace/4971db484bd2a596d047a499eecf"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/010eb1/0c0d68ed45e9859fc8da5bb89c0d"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1598.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 20
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7635270154",
+                "name": "XIAOMI POCOPHONE F1 128/6 GLOB EU+2xETUI+SZKŁO 5D",
+                "seller": {
+                    "id": "20560888",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://4.allegroimg.com/original/038d08/c9d1630841acbd27d86e071c41b4"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/032a86/34d444274925809c2106b4fafd1d"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/03edda/75a2fa7a41b39b0c2d4250a1d7ad"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/038fb5/4bf4748c4a1b96d348ed3899e840"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/037c9f/68fd8e6b40ae8ad827ca8a5d04ec"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/030ce6/954c0c0e42f8bf4cf07321afa125"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/03678b/575897d0405389fdc10d004d93fb"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/03674c/b56bd66b4e28a1a384d9d1cf32b8"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/03c81a/f0064b0c4afebfadb83ec545610b"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/03e772/8bcb3ba64ae1a5156791406264c8"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/030d86/836705fc4dff84dabd78aa4e2773"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/032bd3/7104ff8545b4a0857a9c27fb006c"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1699.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 1
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 98
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7955157655",
+                "name": "Smartfon Xiaomi Pocophone F1 6/128GB Blue Dual Sim",
+                "seller": {
+                    "id": "44498519",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "6.40",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/03aa56/77350ca34686857186f5ac5c14fa"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03fc3c/21d65584488b826e37885275cd99"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/038da0/11a4a93a4d3b8653a484384e94fa"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/031fa8/36a58860414aa65b4f60031a8068"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03254f/0c69986d4f3388c88ba27da7f478"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/031e51/3d8fddac4b5bb6baaeb016bd78cb"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/036a29/f38e177c4b16830732cecc24562b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03596b/4a420b03478bbbcb36a7435d0f8c"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03d4ac/52f7e91644769a845c681a1b049b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/032b24/b86f23304deba6aebff3fbff75f3"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0384cf/e9eb60df48ad861de7eadc285fc7"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/031ef2/7b48467848c2ab681645a791c590"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03d8fa/cb2d0b7f44648087817edc2d0ed8"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1459.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7580962139",
+                "name": "XIAOMI POCOPHONE F1 128/6 GLOBAL EU +ETUI+SZKŁO 5D",
+                "seller": {
+                    "id": "20560888",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://d.allegroimg.com/original/032a86/34d444274925809c2106b4fafd1d"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/03edda/75a2fa7a41b39b0c2d4250a1d7ad"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/038fb5/4bf4748c4a1b96d348ed3899e840"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/037c9f/68fd8e6b40ae8ad827ca8a5d04ec"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/030ce6/954c0c0e42f8bf4cf07321afa125"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/03678b/575897d0405389fdc10d004d93fb"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/03674c/b56bd66b4e28a1a384d9d1cf32b8"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/03e772/8bcb3ba64ae1a5156791406264c8"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1699.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 99
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7760476410",
+                "name": "SMARTFON XIAOMI POCOPHONE F1 6/128GB BLACK",
+                "seller": {
+                    "id": "47125321",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "6.99",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://d.allegroimg.com/original/066bf0/abb88bd84e08b64bcf3e72a5abdd"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/063a40/399f073b471eb1571c3ad0780a0d"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/069559/fafa62c44426b3c0cabf99f18e62"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/06b430/11d06d704b168c1ef1f179850ca7"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/067efd/b1e04a5246c18d6587b92c89c03a"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/068677/16b536b34c2ca60713799ff2d683"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/06a29f/e7f81091436a9d58cd9f21626c34"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/06a01d/ee55daad48748dbd548925a96f63"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/064aa1/29cc1fd449eca7865d0eef8118fd"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/064e8c/ec66b23545cca8f660a02da30a15"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/069276/5946c9ec4ffe91331274765c4e52"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/0641e3/6685aac84abd9bdc48fb69223560"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/06b21b/f96c49344e98a2fe64a88f861f11"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1598.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 100
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7760483514",
+                "name": "SMARTFON XIAOMI POCOPHONE F1 6/128GB STEEL BLUE",
+                "seller": {
+                    "id": "47125321",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "6.99",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/06c293/80df4d4f415697b4e2978b6923aa"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/061d40/f8c9f49b4830b36a34df8102d0e9"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/06b510/789717fe4a5cb6a02bca4989f939"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/06b430/11d06d704b168c1ef1f179850ca7"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/067efd/b1e04a5246c18d6587b92c89c03a"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/068677/16b536b34c2ca60713799ff2d683"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/06a29f/e7f81091436a9d58cd9f21626c34"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/06a01d/ee55daad48748dbd548925a96f63"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/064aa1/29cc1fd449eca7865d0eef8118fd"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/064e8c/ec66b23545cca8f660a02da30a15"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/069276/5946c9ec4ffe91331274765c4e52"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/0641e3/6685aac84abd9bdc48fb69223560"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/06b21b/f96c49344e98a2fe64a88f861f11"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1598.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 100
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7661236971",
+                "name": "Niebieski Smartfon XIAOMI Pocophone F1 6/128GB",
+                "seller": {
+                    "id": "6879039",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://1.allegroimg.com/original/01426f/43f41e7a45428b12bf35a6f458d1"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/018b40/69ceaa4e4e9a856d017ea68eb18a"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/010923/8ca44dcd45ed81f10be0455a9efc"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/01924b/d3e77a46434a800e5aa45c396acb"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/01e270/f0133d5046bd9eca3dec2738b196"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/01d0a4/dd622e494d94a7d2c5953b508d57"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/017419/873d07fb4d4a85ec94877f561c8e"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/013f62/c7b012fa42158f3125dd4a901580"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/014c59/5034f924483eab42665d4444d363"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/01c2cc/70e76e3f41f18d2e5d3873666c5d"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0162dd/f0b15c4c4cc6be9e1470ee49fa5a"
+                    },
+                    {
+                        "url": "https://2.allegroimg.com/original/01ad27/b95011334cc7ac988eee5a5fea92"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1423.68",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 50
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7636261289",
+                "name": "Karta Pamięci Sandisk 128GB Xiaomi Pocophone F1",
+                "seller": {
+                    "id": "12654256",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "5.90",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://0.allegroimg.com/original/01a9bf/dbdb70d441f2aa2d33bf033ba000"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/012e77/c7aa19c44b4898fc884da9b5ec85"
+                    },
+                    {
+                        "url": "https://9.allegroimg.com/original/0122f9/4af57da84fe1bf4aed2eb78eff59"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/011469/ac1b91ac4433abd2db15139bd831"
+                    },
+                    {
+                        "url": "https://0.allegroimg.com/original/019e64/092ad0114fb7ad24907c6f511860"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/0123ba/03e4444c4b6ba0b9132234dfd95d"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/01ae89/fa272a9442c5b2cebc818322d153"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/010e49/b33f6a344a8ea2f28976735130ff"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "129.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 100
+                },
+                "category": {
+                    "id": "257818"
+                }
+            },
+            {
+                "id": "7973050373",
+                "name": "Xiaomi Pocophone F1 DS 128GB Blue",
+                "seller": {
+                    "id": "6124440",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/01767f/f81393a4440bab402f72f6879272"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/011fd4/86594a474cd3824d8e30ce959c92"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/012901/2ef795424c0097fb865f088df78b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/015bed/8784dfd646debcd40a5fc21cd69e"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1508.99",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 2
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7706720517",
+                "name": "XIAOMI POCOPHONE F1 128/6 EU RED 2xETUI+SZKŁO 5D",
+                "seller": {
+                    "id": "20560888",
+                    "company": true,
+                    "superSeller": true
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://1.allegroimg.com/original/037b29/83de4865427d8a35ff1cc2400581"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/03d210/fc5281164466b49988c951ecf37e"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/03976c/1ceb432f40688ca7b5c5be6ddb38"
+                    },
+                    {
+                        "url": "https://5.allegroimg.com/original/030ce6/954c0c0e42f8bf4cf07321afa125"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/03678b/575897d0405389fdc10d004d93fb"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/03e772/8bcb3ba64ae1a5156791406264c8"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/032d7f/b62501144d5598b0586bbde5b37b"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/0323f4/6b2882a446eb83f7f6c922973a57"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/035d01/a4ed362843bc9f111b2cff094956"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/03ecb8/2767cec347cea5574cc1642458e1"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1659.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 20
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7901607836",
+                "name": "POCOPHONE 6/128 niebieski polska dystrybucja",
+                "seller": {
+                    "id": "52990660",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/0340c9/f83e98544809a1be311f51848462"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1295.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 6
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 13
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7901574982",
+                "name": "POCOPHONE 6/128 grafitowy polska dystrybucja",
+                "seller": {
+                    "id": "52990660",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/037047/1afa3e074f18b9d479d1b0dcd46f"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1295.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 5
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 14
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7948586948",
+                "name": "Xiaomi Pocophone F1 6/128 GB Czarny Black DualSim",
+                "seller": {
+                    "id": "44367696",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/0367c1/81bc64ad4acc8f533227fd24263e"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/030173/f6424caa4ee68c9b78842b7a595b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03f9e6/4411e33942cd88fd5fe7b3dc00d2"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/03987c/3c8a3710481089ca6e872d1fef3f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/03b0c7/e2befcbd43d7825be309eb58971a"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/03c749/693fcdd54dd8b8fc0ce5561a0966"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1449.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 1
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 99
+                },
+                "category": {
+                    "id": "259443"
+                },
+                "publication": {
+                    "endingAt": "2019-04-22T00:08:53.000Z"
+                }
+            },
+            {
+                "id": "7760084509",
+                "name": "Grafitowy Smartfon XIAOMI Pocophone F1 6/128GB",
+                "seller": {
+                    "id": "42388365",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "13.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://7.allegroimg.com/original/017285/d3475e804471babca37f03a31477"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/01a32c/f9b36d1b4b04a596a2b755a3406d"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/017e29/6b5391884b43a15cf4212ee91374"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/013a9e/54484dec4fedab6b49c34028642b"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/0160d5/e14816744fbcacfbea4fc0fb616c"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/0161b4/163d881548a4a4ced71d6cdca29d"
+                    },
+                    {
+                        "url": "https://6.allegroimg.com/original/01e925/8dcfd355448b9103290883031156"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/0150a7/44066ab24b8e9ed08950328ef32d"
+                    },
+                    {
+                        "url": "https://3.allegroimg.com/original/01c8a8/035590cd479dbd3585e943257f93"
+                    },
+                    {
+                        "url": "https://8.allegroimg.com/original/014efc/3fa606cb4937bd8fca37265ef5f8"
+                    },
+                    {
+                        "url": "https://1.allegroimg.com/original/01d3ce/eb44ecc94c519cecf1ee6b77f831"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0149a3/a61aa6044ead9c231bbe5740c18a"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1598.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 3
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 242
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7972775703",
+                "name": "Xiaomi PocoPhone F1 6GB/ 128GB idealny polecam",
+                "seller": {
+                    "id": "34693381",
+                    "company": false,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.99",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/03fa26/718d0f274e6da788edf5ee7274c7"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/039200/fc39ba5246f982df1f403692b71a"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0374eb/927e7359431c8be614bbbd25adce"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0353cd/e18f33b0461ca95d5a33285ef39f"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/038117/e82ef94a4a9bb8d7934b2c871e87"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1199.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                },
+                "publication": {
+                    "endingAt": "2019-05-09T15:32:41.000Z"
+                }
+            },
+            {
+                "id": "7979003302",
+                "name": "Outlet Xiaomi Pocophone F1 6/128GB Black Czarny",
+                "seller": {
+                    "id": "47266906",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "8.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://6.allegroimg.com/original/030efc/6206aad54d2eb4a1715f401c3ae6"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/034d8a/e1ac9f314800b5494b404c57df54"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1218.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7760157508",
+                "name": "Niebieski Smartfon XIAOMI Pocophone F1 6/128GB",
+                "seller": {
+                    "id": "42388365",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": false,
+                    "lowestPrice": {
+                        "amount": "13.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://4.allegroimg.com/original/01ac67/d3fcde4d4f51a80608a5112f7934"
+                    },
+                    {
+                        "url": "https://4.allegroimg.com/original/0195ca/5cb7995a4f8eaa8844587d14ba34"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/01a00b/dbf209c64daa88889d0d0f64086d"
+                    },
+                    {
+                        "url": "https://b.allegroimg.com/original/014020/dc6990d645f9bc7a6b772a0a911b"
+                    },
+                    {
+                        "url": "https://c.allegroimg.com/original/01fa54/64f68a2f4ba0807d25e8d8c8f92c"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/01d02d/719af95d432c9694ef3b5b896e07"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/014687/27b30a2a4b3b967c5f5b79a9fffd"
+                    },
+                    {
+                        "url": "https://d.allegroimg.com/original/01f925/02a3041844fe8a3de95378ba3e9d"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/01640a/f5d75acc4a409750e664d3e5d57f"
+                    },
+                    {
+                        "url": "https://f.allegroimg.com/original/014cac/1d171c624201852886194ad8110f"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/013de0/7499fd224955b42ce48165f4d7be"
+                    },
+                    {
+                        "url": "https://7.allegroimg.com/original/019406/914563ca4243bb981713a67f2647"
+                    },
+                    {
+                        "url": "https://e.allegroimg.com/original/01c80c/f3b0e7af404ea25cd027083a578e"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1423.68",
+                        "currency": "PLN"
+                    },
+                    "popularity": 1
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 93
+                },
+                "category": {
+                    "id": "259443"
+                }
+            },
+            {
+                "id": "7962697381",
+                "name": "Smartfon POCOPHONE F1 128GB Niebieski",
+                "seller": {
+                    "id": "16113745",
+                    "company": true,
+                    "superSeller": false
+                },
+                "promotion": {
+                    "emphasized": false,
+                    "bold": false,
+                    "highlight": false
+                },
+                "delivery": {
+                    "availableForFree": true,
+                    "lowestPrice": {
+                        "amount": "0.00",
+                        "currency": "PLN"
+                    }
+                },
+                "images": [
+                    {
+                        "url": "https://a.allegroimg.com/original/013b7c/205d38754c2c9048711578ac1321"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/011d79/a7f503f840428150ae2ed9565fb8"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01ce37/ecbbd17545d6b29075b91c27104b"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0137c1/e122c3644d1088203222fabd5432"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/01eb0d/c72a0fcc4515814897dc8155b990"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/017f25/314e9faa46dfbf5ab94f12acceb0"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0194e1/7c69eb4248fa80e2da65d6bdb85e"
+                    },
+                    {
+                        "url": "https://a.allegroimg.com/original/0122a0/2371efdb4a62a88c3ebec50c19c6"
+                    }
+                ],
+                "sellingMode": {
+                    "format": "BUY_NOW",
+                    "price": {
+                        "amount": "1775.00",
+                        "currency": "PLN"
+                    },
+                    "popularity": 0
+                },
+                "stock": {
+                    "unit": "UNIT",
+                    "available": 1
+                },
+                "category": {
+                    "id": "259443"
+                }
+            }
+        ]
+    },
+    "searchMeta": {
+        "availableCount": 72,
+        "totalCount": 72,
+        "fallback": false
+    },
+    "categories": {
+        "subcategories": [
+            {
+                "id": "4",
+                "name": "Telefony i Akcesoria",
+                "count": 72
+            }
+        ],
+        "path": [
+            {
+                "id": "954b95b6-43cf-4104-8354-dea4d9b10ddf",
+                "name": "Allegro"
+            }
+        ]
+    },
+    "filters": [
+        {
+            "id": "parameter.11323",
+            "type": "MULTI",
+            "name": "Stan",
+            "values": [
+                {
+                    "value": "1",
+                    "name": "nowe",
+                    "count": 69,
+                    "selected": false
+                },
+                {
+                    "value": "2",
+                    "name": "używane",
+                    "count": 2,
+                    "selected": false
+                },
+                {
+                    "value": "238066",
+                    "name": "po zwrocie",
+                    "count": 1,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "sellingMode.format",
+            "type": "MULTI",
+            "name": "rodzaj oferty",
+            "values": [
+                {
+                    "value": "BUY_NOW",
+                    "name": "kup teraz",
+                    "count": 69,
+                    "selected": false
+                },
+                {
+                    "value": "AUCTION",
+                    "name": "licytacje",
+                    "count": 3,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "price",
+            "type": "NUMERIC",
+            "name": "cena",
+            "values": [
+                {
+                    "idSuffix": ".from",
+                    "name": "od",
+                    "selected": false
+                },
+                {
+                    "idSuffix": ".to",
+                    "name": "do",
+                    "selected": false
+                }
+            ],
+            "minValue": 0,
+            "maxValue": 1000000000,
+            "unit": "zł"
+        },
+        {
+            "id": "deliveryMethod",
+            "type": "MULTI",
+            "name": "sposoby dostawy",
+            "values": [
+                {
+                    "value": "5b445fa0580ce26bb2f99602",
+                    "name": "Kurier",
+                    "count": 67,
+                    "selected": false
+                },
+                {
+                    "value": "5b445fd9580ce26bb2f99608",
+                    "name": "Kurier wieczór",
+                    "count": 7,
+                    "selected": false
+                },
+                {
+                    "value": "5b445fe6580ce26bb2f9960a",
+                    "name": "Paczkomaty InPost",
+                    "count": 49,
+                    "selected": false
+                },
+                {
+                    "value": "5b446004580ce26bb2f9960c",
+                    "name": "Odbiór w punkcie",
+                    "count": 29,
+                    "selected": false
+                },
+                {
+                    "value": "5b446013580ce26bb2f9960e",
+                    "name": "List",
+                    "count": 11,
+                    "selected": false
+                },
+                {
+                    "value": "5b446031580ce26bb2f99610",
+                    "name": "Paczka",
+                    "count": 1,
+                    "selected": false
+                },
+                {
+                    "value": "5b446044580ce26bb2f99612",
+                    "name": "Odbiór osobisty",
+                    "count": 30,
+                    "selected": false
+                },
+                {
+                    "value": "5b44605c580ce26bb2f99614",
+                    "name": "Przesyłka elektroniczna",
+                    "count": 0,
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "location.province",
+            "type": "SINGLE",
+            "name": "województwo",
+            "values": [
+                {
+                    "value": "DOLNOSLASKIE",
+                    "name": "z dolnośląskiego",
+                    "selected": false
+                },
+                {
+                    "value": "KUJAWSKO_POMORSKIE",
+                    "name": "z kujawsko-pomorskiego",
+                    "selected": false
+                },
+                {
+                    "value": "LUBELSKIE",
+                    "name": "z lubelskiego",
+                    "selected": false
+                },
+                {
+                    "value": "LUBUSKIE",
+                    "name": "z lubuskiego",
+                    "selected": false
+                },
+                {
+                    "value": "LODZKIE",
+                    "name": "z łódzkiego",
+                    "selected": false
+                },
+                {
+                    "value": "MALOPOLSKIE",
+                    "name": "z małopolskiego",
+                    "selected": false
+                },
+                {
+                    "value": "MAZOWIECKIE",
+                    "name": "z mazowieckiego",
+                    "selected": false
+                },
+                {
+                    "value": "OPOLSKIE",
+                    "name": "z opolskiego",
+                    "selected": false
+                },
+                {
+                    "value": "PODKARPACKIE",
+                    "name": "z podkarpackiego",
+                    "selected": false
+                },
+                {
+                    "value": "PODLASKIE",
+                    "name": "z podlaskiego",
+                    "selected": false
+                },
+                {
+                    "value": "POMORSKIE",
+                    "name": "z pomorskiego",
+                    "selected": false
+                },
+                {
+                    "value": "SLASKIE",
+                    "name": "ze śląskiego",
+                    "selected": false
+                },
+                {
+                    "value": "SWIETOKRZYSKIE",
+                    "name": "ze świętokrzyskiego",
+                    "selected": false
+                },
+                {
+                    "value": "WARMINSKO_MAZURSKIE",
+                    "name": "z warmińsko-mazurskiego",
+                    "selected": false
+                },
+                {
+                    "value": "WIELKOPOLSKIE",
+                    "name": "z wielkopolskiego",
+                    "selected": false
+                },
+                {
+                    "value": "ZACHODNIOPOMORSKIE",
+                    "name": "z zachodniopomorskiego",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "location.city",
+            "type": "TEXT",
+            "name": "miejscowość",
+            "values": [
+                {
+                    "name": "miejscowość",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "option",
+            "type": "MULTI",
+            "name": "oferta ma",
+            "values": [
+                {
+                    "value": "FREE_SHIPPING",
+                    "name": "darmowa dostawa",
+                    "selected": false
+                },
+                {
+                    "value": "FREE_RETURN",
+                    "name": "darmowy zwrot InPost",
+                    "selected": false
+                },
+                {
+                    "value": "VAT_INVOICE",
+                    "name": "faktura VAT",
+                    "selected": false
+                },
+                {
+                    "value": "COINS",
+                    "name": "Monety Allegro",
+                    "selected": false
+                },
+                {
+                    "value": "BRAND_ZONE",
+                    "name": "Strefa Marek",
+                    "selected": false
+                },
+                {
+                    "value": "SUPERSELLER",
+                    "name": "Super Sprzedawca",
+                    "selected": false
+                },
+                {
+                    "value": "CHARITY",
+                    "name": "Allegro Charytatywni",
+                    "selected": false
+                },
+                {
+                    "value": "SMART",
+                    "name": "Allegro Smart!",
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "id": "campaign",
+            "type": "MULTI",
+            "name": "kampania",
+            "values": [
+                {
+                    "value": "INSTALLMENTS_ZERO",
+                    "name": "raty zero",
+                    "selected": false
+                },
+                {
+                    "value": "BARGAIN",
+                    "name": "Strefa okazji",
+                    "selected": false
+                },
+                {
+                    "value": "BARGAIN_REBATE",
+                    "name": "rabaty",
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    "sort": [
+        {
+            "value": "-relevance",
+            "name": "trafność",
+            "order": "największa",
+            "selected": true
+        },
+        {
+            "value": "+price",
+            "name": "cena",
+            "order": "od najniższej",
+            "selected": false
+        },
+        {
+            "value": "-price",
+            "name": "cena",
+            "order": "od najwyższej",
+            "selected": false
+        },
+        {
+            "value": "+withDeliveryPrice",
+            "name": "cena z dostawą",
+            "order": "od najniższej",
+            "selected": false
+        },
+        {
+            "value": "-withDeliveryPrice",
+            "name": "cena z dostawą",
+            "order": "od najwyższej",
+            "selected": false
+        },
+        {
+            "value": "-popularity",
+            "name": "popularność",
+            "order": "największa",
+            "selected": false
+        },
+        {
+            "value": "+endTime",
+            "name": "czas do końca",
+            "order": "najmniej",
+            "selected": false
+        },
+        {
+            "value": "-startTime",
+            "name": "czas dodania",
+            "order": "najnowsze",
+            "selected": false
+        }
+    ]
+}
