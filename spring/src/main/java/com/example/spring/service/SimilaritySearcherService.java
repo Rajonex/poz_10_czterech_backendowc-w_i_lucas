@@ -11,21 +11,22 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.oauth2.client.OAuth2RestTemplate;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @Component
-public class SimilarySearcherService {
+public class SimilaritySearcherService {
 
     @Autowired
     private OAuth2RestTemplate restTemplate;
 
-    public SimilarySearcherService(OAuth2RestTemplate restTemplate) {
+    public SimilaritySearcherService(OAuth2RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 
-    public Map<ListingOffer, List<ListingOffer>> searchSimilaryOffers(List<String> offers) {
+    public Map<ListingOffer, List<ListingOffer>> searchSimilaryOffers(List<ListingOffer> offers) {
         Map<ListingOffer, List<ListingOffer>> similaryOffers = new HashMap<>();
         HttpHeaders headers = new HttpHeaders();
         headers.set("Header", "value");
@@ -33,18 +34,16 @@ public class SimilarySearcherService {
 
         HttpEntity entity = new HttpEntity(headers);
 
-        ListingOffer key;
-
-        for (String offer : offers) {
+        for (ListingOffer offer : offers) {
             ResponseEntity<SearchOffers> response = restTemplate.exchange(
-                    "https://api.allegro.pl/offers/listing?phrase=" + offer, HttpMethod.GET, entity, SearchOffers.class);
-            try{
-                key = response.getBody().getItems().getRegular().get(0);
-                similaryOffers.put(key, response.getBody().getItems().getRegular());
-                similaryOffers.get(key).addAll(response.getBody().getItems().getPromoted());
-            }catch (NullPointerException ex){
-                System.out.println("nic nie znalazłem");
+                    "https://api.allegro.pl/offers/listing?phrase=" + offer.getName(), HttpMethod.GET, entity, SearchOffers.class);
+            similaryOffers.put(offer, new ArrayList<>());
+
+            if (response.hasBody()) {
+                similaryOffers.get(offer).addAll(response.getBody().getItems().getRegular());
+                similaryOffers.get(offer).addAll(response.getBody().getItems().getPromoted());
             }
+
 
         }
         return similaryOffers;
