@@ -2,6 +2,7 @@ package com.example.spring.controller;
 
 import com.example.spring.heuristic.GreedyHeuristic;
 import com.example.spring.heuristic.Heuristic;
+import com.example.spring.heuristic.LocalSearch;
 import com.example.spring.heuristic.util.ParcelConverter;
 import com.example.spring.model.ListingOffer;
 import com.example.spring.model.ListingResponseOffers;
@@ -89,7 +90,8 @@ public class BasketController {
             newData.put(mapWrapper.getKey(), mapWrapper.getValue());
         }
 
-        Heuristic heuristic = new GreedyHeuristic(true);
+//        Heuristic heuristic = new GreedyHeuristic(false);
+        Heuristic heuristic = new LocalSearch(new GreedyHeuristic(true),true);
         List<Basket> b = ParcelConverter.convertSellersToParcels(heuristic.run(newData, 1));
         List<BasketWrapper> wrappedBaskets = b.stream().map(BasketWrapper::from).collect(Collectors.toList());
         ListWrapper<BasketWrapper> response = new ListWrapper<>(wrappedBaskets);
