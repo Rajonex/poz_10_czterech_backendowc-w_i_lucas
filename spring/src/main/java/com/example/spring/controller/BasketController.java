@@ -2,6 +2,7 @@ package com.example.spring.controller;
 
 import com.example.spring.heuristic.GreedyHeuristic;
 import com.example.spring.heuristic.Heuristic;
+import com.example.spring.heuristic.util.ParcelConverter;
 import com.example.spring.model.ListingOffer;
 import com.example.spring.model.ListingResponseOffers;
 import com.example.spring.model.SearchOffers;
@@ -14,11 +15,13 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -41,7 +44,6 @@ public class BasketController {
     @PostMapping
     public ResponseEntity<?> addToCart(@RequestParam String phrase) {
         HttpHeaders headers = new HttpHeaders();
-        headers.set("Header", "value");
         headers.set(HttpHeaders.ACCEPT, "application/vnd.allegro.public.v1+json");
 
         HttpEntity entity = new HttpEntity(headers);
@@ -65,7 +67,7 @@ public class BasketController {
         return ResponseEntity.ok().build();
     }
 
-    @GetMapping("/generate")
+    @GetMapping("/proposes")
     public ResponseEntity<List<Basket>> getProposeOffers() {
         Map<ListingOffer, List<ListingOffer>> data = similaritySearcherService.searchSimilaryOffers(
                 shoppingCartService.getProductsInCart());
@@ -78,9 +80,18 @@ public class BasketController {
 
         ArrayWrapper arrayWrapper = new ArrayWrapper(wrappedMap);
 
+        RestTemplate rest = new RestTemplate();
 
+        HttpEntity<ArrayWrapper> request = new HttpEntity<>(arrayWrapper);
+        arrayWrapper = rest.postForObject("http://localhost:9000/api/filter", request, ArrayWrapper.class);
+
+        Map<ListingOffer, List<ListingOffer>> newData = new HashMap<>();
+        for (MapWrapper mapWrapper: arrayWrapper.getData()) {
+            newData.put(mapWrapper.getKey(), mapWrapper.getValue());
+        }
+        
         Heuristic heuristic = new GreedyHeuristic();
-        List<Basket> b = heuristic.run(data, 1);
+        List<Basket> b = ParcelConverter.convertSellersToParcels(heuristic.run(newData, 1));
         return ResponseEntity.ok(b);
     }
 

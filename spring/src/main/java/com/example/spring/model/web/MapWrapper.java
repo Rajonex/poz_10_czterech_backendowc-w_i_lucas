@@ -2,12 +2,17 @@ package com.example.spring.model.web;
 
 import com.example.spring.model.ListingOffer;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 public class MapWrapper {
     private ListingOffer key;
     private List<ListingOffer> value;
+
+    public MapWrapper() {
+        this.value = new ArrayList<>();
+    }
 
     public MapWrapper(ListingOffer key, List<ListingOffer> value) {
         this.key = key;

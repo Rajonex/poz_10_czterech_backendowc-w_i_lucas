@@ -2,6 +2,7 @@ package com.example.spring.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
+import java.util.List;
 import java.util.Objects;
 
 public class ListingOffer {
@@ -11,6 +12,16 @@ public class ListingOffer {
     OfferDelivery delivery;
     OfferSellingMode sellingMode;
     OfferCategory category;
+
+    public List<OfferImages> getImages() {
+        return images;
+    }
+
+    public void setImages(List<OfferImages> images) {
+        this.images = images;
+    }
+
+    List<OfferImages> images;
 
     public String getId() {
         return id;
