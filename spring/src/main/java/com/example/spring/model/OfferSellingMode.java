@@ -1,5 +1,8 @@
 package com.example.spring.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class OfferSellingMode {
     String format;
     OfferPrice price;
@@ -31,19 +34,19 @@ public class OfferSellingMode {
         this.fixedPrice = fixedPrice;
     }
 
-    public int getPopularity() {
+    public Integer getPopularity() {
         return popularity;
     }
 
-    public void setPopularity(int popularity) {
+    public void setPopularity(Integer popularity) {
         this.popularity = popularity;
     }
 
-    public int getBidCount() {
+    public Integer getBidCount() {
         return bidCount;
     }
 
-    public void setBidCount(int bidCount) {
+    public void setBidCount(Integer bidCount) {
         this.bidCount = bidCount;
     }
 }

@@ -1,6 +1,9 @@
 package com.example.spring.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 import java.util.Objects;
+
 
 public class OfferSeller {
     String id;
@@ -15,19 +18,19 @@ public class OfferSeller {
         this.id = id;
     }
 
-    public boolean isCompany() {
+    public Boolean getCompany() {
         return company;
     }
 
-    public void setCompany(boolean company) {
+    public void setCompany(Boolean company) {
         this.company = company;
     }
 
-    public boolean isSuperSeller() {
+    public Boolean getSuperSeller() {
         return superSeller;
     }
 
-    public void setSuperSeller(boolean superSeller) {
+    public void setSuperSeller(Boolean superSeller) {
         this.superSeller = superSeller;
     }
 

@@ -1,5 +1,9 @@
 package com.example.spring.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+import java.util.Objects;
+
 public class ListingOffer {
     String id;
     String name;
@@ -54,5 +58,19 @@ public class ListingOffer {
 
     public void setCategory(OfferCategory category) {
         this.category = category;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ListingOffer that = (ListingOffer) o;
+        return Objects.equals(id, that.id) &&
+                Objects.equals(name, that.name);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name);
     }
 }

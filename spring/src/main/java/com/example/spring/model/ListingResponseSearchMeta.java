@@ -5,27 +5,27 @@ public class ListingResponseSearchMeta {
     Integer totalCount;
     Boolean fallback;
 
-    public int getAvailableCount() {
+    public Integer getAvailableCount() {
         return availableCount;
     }
 
-    public void setAvailableCount(int availableCount) {
+    public void setAvailableCount(Integer availableCount) {
         this.availableCount = availableCount;
     }
 
-    public int getTotalCount() {
+    public Integer getTotalCount() {
         return totalCount;
     }
 
-    public void setTotalCount(int totalCount) {
+    public void setTotalCount(Integer totalCount) {
         this.totalCount = totalCount;
     }
 
-    public boolean isFallback() {
+    public Boolean getFallback() {
         return fallback;
     }
 
-    public void setFallback(boolean fallback) {
+    public void setFallback(Boolean fallback) {
         this.fallback = fallback;
     }
 }
