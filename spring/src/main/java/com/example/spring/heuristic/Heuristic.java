@@ -10,5 +10,5 @@ import java.util.Map;
 
 public interface Heuristic {
 
-    Map<OfferSeller, OfferSellerParcel> run(Map<ListingOffer, List<ListingOffer>> productsAndSimilarities, Integer maxParcels);
+    List<Map<OfferSeller, OfferSellerParcel>> run(Map<ListingOffer, List<ListingOffer>> productsAndSimilarities, Integer maxParcels);
 }

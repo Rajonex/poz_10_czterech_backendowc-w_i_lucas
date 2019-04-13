@@ -10,14 +10,25 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.*;
 
-public class GreedyHeuristic implements Heuristic {
+public class GreedyHeuristic implements InitialHeuristic {
 
     @Autowired
     private LowestPriceSearcherService lowestPrice;
 
+    private boolean cacheChosenSimilarities;
+    private Map<ListingOffer, ListingOffer> cachedSimilaritiesConverts;
+
+    public GreedyHeuristic(boolean cacheChosenSimilarities) {
+        this.cacheChosenSimilarities = cacheChosenSimilarities;
+        this.cachedSimilaritiesConverts = new HashMap<>();
+
+    }
+
     @Override
-    public Map<OfferSeller, OfferSellerParcel> run(Map<ListingOffer, List<ListingOffer>> productsAndSimilarities, Integer maxParcels) {
+    public List<Map<OfferSeller, OfferSellerParcel>> run(Map<ListingOffer, List<ListingOffer>> productsAndSimilarities, Integer maxParcels) {
         Map<OfferSeller, OfferSellerParcel> sellersParcels = new HashMap<>();
+
+
 
 
         for(Map.Entry<ListingOffer, List<ListingOffer>> productAndSimilarities: productsAndSimilarities.entrySet()){
@@ -72,11 +83,20 @@ public class GreedyHeuristic implements Heuristic {
                 sellersParcels.put(product.getSeller(), offerSellerParcel);
             }
 
-
+            cachedSimilaritiesConverts.put(productAndSimilarities.getKey(), product);
         }
 
-        return sellersParcels;
+        List<Map<OfferSeller, OfferSellerParcel>> result = new LinkedList<>();
+        result.add(sellersParcels);
+        return result;
 
+    }
+
+    public Map<ListingOffer, ListingOffer> getCachedSimilaritiesConverts() {
+        if(cacheChosenSimilarities) {
+            return cachedSimilaritiesConverts;
+        }
+        throw new IllegalStateException("Cache not declared");
     }
 
     List<ListingOffer> getAllowedSimilarities(Set<OfferSeller> sellers, List<ListingOffer> similarities){

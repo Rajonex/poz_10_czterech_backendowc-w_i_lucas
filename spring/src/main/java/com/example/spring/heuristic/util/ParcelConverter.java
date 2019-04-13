@@ -13,17 +13,17 @@ import java.util.Map;
 
 public class ParcelConverter {
 
-    public static List<Basket> convertSellersToParcels(Map<OfferSeller, OfferSellerParcel> sellersParcels){
-
-        Map<Parcel, List<ListingOffer>> parcels = new HashMap<>();
+    public static List<Basket> convertSellersToParcels(List<Map<OfferSeller, OfferSellerParcel>> sellersParcelsPropositions){
         Integer mockId = 0;
-        for(Map.Entry<OfferSeller, OfferSellerParcel> sellerParcel: sellersParcels.entrySet()){
-            parcels.put(new Parcel(sellerParcel.getValue().getPrice(), mockId), sellerParcel.getValue().getListingOffers());
-            mockId = mockId+1;
-        }
-
         List<Basket> result = new LinkedList<>();
-        result.add(new Basket(parcels));
+        for(Map<OfferSeller, OfferSellerParcel> sellersParcels: sellersParcelsPropositions) {
+            Map<Parcel, List<ListingOffer>> parcels = new HashMap<>();
+            for (Map.Entry<OfferSeller, OfferSellerParcel> sellerParcel : sellersParcels.entrySet()) {
+                parcels.put(new Parcel(sellerParcel.getValue().getPrice(), mockId), sellerParcel.getValue().getListingOffers());
+                mockId = mockId + 1;
+            }
+            result.add(new Basket(parcels));
+        }
         return result;
     }
 
