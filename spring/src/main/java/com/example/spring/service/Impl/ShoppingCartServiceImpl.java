@@ -13,24 +13,24 @@ import java.util.ArrayList;
 @Scope(value= WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class ShoppingCartServiceImpl implements ShoppingCartService {
 
-    private ArrayList<String> products;
+    private ArrayList<ListingOffer> products;
 
     public ShoppingCartServiceImpl() {
         this.products = new ArrayList<>();
     }
 
     @Override
-    public void addProduct(String listingOffer) {
-        this.products.add(listingOffer);
+    public void addProduct(ListingOffer item) {
+        this.products.add(item);
     }
 
     @Override
-    public void removeProduct(String listingOffer) {
-        this.products.remove(listingOffer);
+    public void removeProduct(ListingOffer item) {
+        this.products.remove(item);
     }
 
     @Override
-    public ArrayList<String> getProductsInCart() {
+    public ArrayList<ListingOffer> getProductsInCart() {
         return this.products;
     }
 }
