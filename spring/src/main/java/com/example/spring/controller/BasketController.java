@@ -82,7 +82,7 @@ public class BasketController {
 
         HttpEntity<ListWrapperS> request = new HttpEntity<>(listWrapper);
         System.out.println(algorithm);
-        listWrapper = rest.postForObject("http://localhost:9000/api/filter?algorithm="+algorithm, request, ListWrapperS.class);
+//        listWrapper = rest.postForObject("http://localhost:9000/api/filter?algorithm="+algorithm, request, ListWrapperS.class);
 
         Map<ListingOffer, List<ListingOffer>> newData = new HashMap<>();
         for (MapWrapper mapWrapper: listWrapper.getData()) {
@@ -91,7 +91,7 @@ public class BasketController {
 
 //        Heuristic heuristic = new GreedyHeuristic(false);
         Heuristic heuristic = new LocalSearch(new GreedyHeuristic(true),true);
-        List<Basket> b = ParcelConverter.convertSellersToParcels(heuristic.run(newData, 1));
+        List<Basket> b = ParcelConverter.convertSellersToParcels(heuristic.run(newData, maxPacket));
         List<BasketWrapper> wrappedBaskets = b.stream().map(BasketWrapper::from).collect(Collectors.toList());
         ListWrapper<BasketWrapper> response = new ListWrapper<>(wrappedBaskets);
         return ResponseEntity.ok(response);
