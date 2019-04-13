@@ -8,15 +8,16 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.context.WebApplicationContext;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 @Service
 @Scope(value= WebApplicationContext.SCOPE_SESSION, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class ShoppingCartServiceImpl implements ShoppingCartService {
 
-    private ArrayList<ListingOffer> products;
+    private HashSet<ListingOffer> products;
 
     public ShoppingCartServiceImpl() {
-        this.products = new ArrayList<>();
+        this.products = new HashSet<>();
     }
 
     @Override
@@ -30,7 +31,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
     }
 
     @Override
-    public ArrayList<ListingOffer> getProductsInCart() {
+    public HashSet<ListingOffer> getProductsInCart() {
         return this.products;
     }
 }
