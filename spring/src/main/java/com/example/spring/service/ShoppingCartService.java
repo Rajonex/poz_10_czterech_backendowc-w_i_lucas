@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 public interface ShoppingCartService {
 
-    void addProduct(ListingOffer listingOffer);
-    void removeProduct(ListingOffer listingOffer);
-    ArrayList<ListingOffer> getProductsInCart();
+    void addProduct(String phrase);
+    void removeProduct(String phrase);
+    ArrayList<String> getProductsInCart();
 
 }
