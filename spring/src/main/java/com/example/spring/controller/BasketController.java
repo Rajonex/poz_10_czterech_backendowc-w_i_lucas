@@ -7,10 +7,7 @@ import com.example.spring.heuristic.util.ParcelConverter;
 import com.example.spring.model.ListingOffer;
 import com.example.spring.model.ListingResponseOffers;
 import com.example.spring.model.SearchOffers;
-import com.example.spring.model.web.BasketWrapper;
-import com.example.spring.model.web.ListWrapper;
-import com.example.spring.model.web.Basket;
-import com.example.spring.model.web.MapWrapper;
+import com.example.spring.model.web.*;
 import com.example.spring.service.ShoppingCartService;
 import com.example.spring.service.SimilaritySearcherService;
 import org.springframework.http.HttpEntity;
@@ -68,7 +65,7 @@ public class BasketController {
     }
 
     @GetMapping("/proposes")
-    public ResponseEntity<ListWrapper<BasketWrapper>> getProposeOffers(@RequestParam String algorithm, Integer maxPacket) {
+    public ResponseEntity<ListWrapper<BasketWrapper>> getProposeOffers(@RequestParam String algorithm, @RequestParam Integer maxPacket) {
         Map<ListingOffer, List<ListingOffer>> data = similaritySearcherService.searchSimilaryOffers(
                 new ArrayList<>(shoppingCartService.getProductsInCart()));
 
@@ -78,15 +75,14 @@ public class BasketController {
             wrappedMap.add(new MapWrapper(e.getKey(), e.getValue()));
         }
 
-        ListWrapper<MapWrapper> listWrapper = new ListWrapper<>(wrappedMap);
+        ListWrapperS listWrapper = new ListWrapperS(wrappedMap);
 
         RestTemplate rest = new RestTemplate();
 
-        Map<String, String> params = new HashMap<>();
-        params.put("algorithm", algorithm);
 
-        HttpEntity<ListWrapper<MapWrapper>> request = new HttpEntity<>(listWrapper);
-        listWrapper = rest.postForObject("http://localhost:9000/api/filter", request, ListWrapper.class, params);
+        HttpEntity<ListWrapperS> request = new HttpEntity<>(listWrapper);
+        System.out.println(algorithm);
+        listWrapper = rest.postForObject("http://localhost:9000/api/filter?algorithm="+algorithm, request, ListWrapperS.class);
 
         Map<ListingOffer, List<ListingOffer>> newData = new HashMap<>();
         for (MapWrapper mapWrapper: listWrapper.getData()) {
