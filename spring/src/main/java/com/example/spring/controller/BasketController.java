@@ -20,10 +20,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Controller
@@ -72,7 +69,7 @@ public class BasketController {
     @GetMapping("/proposes")
     public ResponseEntity<ListWrapper<BasketWrapper>> getProposeOffers() {
         Map<ListingOffer, List<ListingOffer>> data = similaritySearcherService.searchSimilaryOffers(
-                shoppingCartService.getProductsInCart());
+                new ArrayList<>(shoppingCartService.getProductsInCart()));
 
         ArrayList<MapWrapper> wrappedMap = new ArrayList<>();
 
@@ -84,7 +81,7 @@ public class BasketController {
 
         RestTemplate rest = new RestTemplate();
 
-        HttpEntity<ListWrapper<MapWrapper>> request = new HttpEntity<>(listWrapper);
+//        HttpEntity<ListWrapper<MapWrapper>> request = new HttpEntity<>(listWrapper);
 //        listWrapper = rest.postForObject("http://localhost:9000/api/filter", request, ListWrapper.class);
 
         Map<ListingOffer, List<ListingOffer>> newData = new HashMap<>();
@@ -100,9 +97,15 @@ public class BasketController {
     }
 
     @GetMapping
-    public ResponseEntity<ArrayList<ListingOffer>> getCartItems() {
-        ArrayList<ListingOffer> response = shoppingCartService.getProductsInCart();
+    public ResponseEntity<Set<ListingOffer>> getCartItems() {
+        Set<ListingOffer> response = shoppingCartService.getProductsInCart();
         return ResponseEntity.ok(response);
+    }
+
+    @DeleteMapping
+    public ResponseEntity<?> deleteItem(@RequestBody ListingOffer item) {
+        shoppingCartService.removeProduct(item);
+        return ResponseEntity.ok().build();
     }
 
 
