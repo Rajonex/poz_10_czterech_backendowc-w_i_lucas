@@ -31,8 +31,9 @@ public class LowestPriceSearcherService {
                 "https://api.allegro.pl/offers/listing?seller.id=" + seller.getId(), HttpMethod.GET, entity, SearchOffers.class);
         for(ListingOffer offer : response.getBody().getItems().getRegular()) {
             if(lowestPrice != null){
-                if(offer.getDelivery().getLowestPrice().getAmount() > lowestPrice.getAmount())
+                if(offer.getDelivery().getLowestPrice().getAmount() > lowestPrice.getAmount()){
                     lowestPrice = offer.getDelivery().getLowestPrice();
+                }
             }else {
                 lowestPrice = offer.getDelivery().getLowestPrice();
             }

@@ -16,7 +16,7 @@ public class GreedyHeuristic implements Heuristic {
     private LowestPriceSearcherService lowestPrice;
 
     @Override
-    public List<Basket> run(Map<ListingOffer, List<ListingOffer>> productsAndSimilarities, Integer maxParcels) {
+    public Map<OfferSeller, OfferSellerParcel> run(Map<ListingOffer, List<ListingOffer>> productsAndSimilarities, Integer maxParcels) {
         Map<OfferSeller, OfferSellerParcel> sellersParcels = new HashMap<>();
 
 
@@ -75,18 +75,8 @@ public class GreedyHeuristic implements Heuristic {
 
         }
 
-        Map<Parcel, List<ListingOffer>> parcels = new HashMap<>();
-        Integer mockId = 0;
-        for(Map.Entry<OfferSeller, OfferSellerParcel> sellerParcel: sellersParcels.entrySet()){
-            parcels.put(new Parcel(sellerParcel.getValue().getPrice(), mockId), sellerParcel.getValue().getListingOffers());
+        return sellersParcels;
 
-            mockId = mockId+1;
-        }
-
-//        return null; // Map<Parcel, List<ListingOffer>> parcels
-        List<Basket> result = new LinkedList<>();
-        result.add(new Basket(parcels));
-        return result;
     }
 
     List<ListingOffer> getAllowedSimilarities(Set<OfferSeller> sellers, List<ListingOffer> similarities){
