@@ -3,9 +3,6 @@ import json
 from flask import Flask
 from flask import request
 from flask import *
-# import sys
-# import settings
-
 
 def tokenize_and_lemmatize(text):
     return_word_list = []
@@ -30,7 +27,6 @@ def tokenize_and_lemmatize(text):
 title = "bardzo ładna czerwona sukienka rozmiar 32"
 alle_title = "telefon iphone czerwony 32GB"
 
-#title, alle_title = lista slow z tokenizacji i lematyzacji
 def get_jaccard(title, alle_title):
     title_word_list = tokenize_and_lemmatize(title)
     alle_title_word_list = tokenize_and_lemmatize(alle_title)
@@ -46,22 +42,18 @@ def get_jaccard(title, alle_title):
     return jaccard
 
 
-# with open('example.json', encoding='utf-8') as f:
-#     data = json.load(f)
 app = Flask(__name__)
 
 
 @app.route('/api/filter', methods=['POST'])
 def get_result_json_objects():
-
     json_objects = request.data
-    result_json_objects = {}
     json_objects_dict = json.loads(json_objects)
 
-    # json_objects_dict = json.loads(json_objects)
-    # json_objects_dict = {}
-    # print(json_objects_dict["data"])
+    result_json_objects_data = {}
+    result_json_objects_array = []
     for item in json_objects_dict["data"]:
+        result_json_objects = {}
         checked_items = []
         key = item["key"]
         value = item["value"]
@@ -77,50 +69,21 @@ def get_result_json_objects():
                 temp_item_array.append(item_val)
                 jaccard_values[jaccard_result] = temp_item_array
 
-            if jaccard_result > 0.35:
+            if jaccard_result > 0.3:
                 checked_items.append(item_val)
                 jaccard_values[0.0] = jaccard_values.pop(jaccard_result)
-        # jaccard_values_rev = {v: k for k, v in jaccard_values.items()}\
-        print(len(checked_items))
         while(len(checked_items)<5):
-            # print(max(jaccard_values, key=float))
             for i in range(len(jaccard_values[max(jaccard_values, key=float)])):
                 checked_items.append(jaccard_values[max(jaccard_values, key=float)][i])
             jaccard_values[0.0] = jaccard_values.pop(max(jaccard_values))
-        print(len(checked_items))
-        result_json_objects["key"] = checked_items
-
-    print(result_json_objects)
-
-
-    
-    return Response(result_json_objects, mimetype='application/json')
-    # base_name = json_objects_dict[0]
+        result_json_objects["key"] = item["key"]
+        result_json_objects["value"] = checked_items
+        result_json_objects_array.append(result_json_objects)
+    result_json_objects_data["data"] = result_json_objects_array
 
 
-    # json_base = json_objects[0]
+    return Response(json.dumps(result_json_objects_data), mimetype='application/json')
 
-    # json_base_dict = json.loads(json_base)
-
-
-
-#slownik z referencyjnym json i lista jsonow
-
-json_base = '{ [{ "id" : 5,  "name" : "telefon iphone czerwony 32GB",  "price" : 5.55, "category" : "iphone" } : ["id" : 5,  "name" : "bardzo ładna czerwona sukienka rozmiar 32",  "price" : 5.55, "category" : "iphone"]] }'
-# json_example2 = '{ "id" : 5,  "name" : "telefon iphone czerwony 32GB",  "price" : 5.55, "category" : "iphone" }'
-
-example_json_list = {}
-
-# get_result_json_objects(json_base)
-
-
-# example_json_list["prod1"] = json_base
-# example_json_list["prod1"] = json_example2
-
-# get_result_json_objects(example_json_list)
-# print(get_jaccard(title, alle_title))
 
 if __name__ == '__main__':
       app.run(host='127.0.0.1', port=9000)
-    #   reload(sys)
-    #   sys.setdefaultencoding('utf-8')
