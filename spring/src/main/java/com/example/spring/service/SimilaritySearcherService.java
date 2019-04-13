@@ -36,7 +36,7 @@ public class SimilaritySearcherService {
 
         for (ListingOffer offer : offers) {
             ResponseEntity<SearchOffers> response = restTemplate.exchange(
-                    "https://api.allegro.pl/offers/listing?phrase=" + offer.getName(), HttpMethod.GET, entity, SearchOffers.class);
+                    "https://api.allegro.pl/offers/listing?phrase=" + offer.getName() + "&category.id=" + offer.getCategory().getId(), HttpMethod.GET, entity, SearchOffers.class);
             similaryOffers.put(offer, new ArrayList<>());
 
             if (response.hasBody()) {
