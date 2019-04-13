@@ -5,10 +5,14 @@ import com.example.spring.model.ListingOffer;
 import com.example.spring.model.OfferSeller;
 import com.example.spring.model.web.Basket;
 import com.example.spring.model.web.parts.Parcel;
+import com.example.spring.service.LowestPriceSearcherService;
 
 import java.util.*;
 
 public class GreedyHeuristic implements Heuristic {
+
+    private LowestPriceSearcherService lowestPrice = new LowestPriceSearcherService();
+
     @Override
     public List<Basket> run(Map<ListingOffer, List<ListingOffer>> productsAndSimilarities, Integer maxParcels) {
         Map<OfferSeller, OfferSellerParcel> sellersParcels = new HashMap<>();
@@ -31,8 +35,8 @@ public class GreedyHeuristic implements Heuristic {
                 if(sellersParcels.containsKey(similarity.getSeller())){
                     OfferSellerParcel offerSellerParcel = sellersParcels.get(similarity.getSeller());
                     int sellerParcelSize = offerSellerParcel.getListingOffers().size();
-                    if(!offerSellerParcel.getFree() || !similarity.getDelivery().isAvailableForFree()){
-                        similarityPrice += 0.0; // maxSellerLowestPrice()
+                    if(!offerSellerParcel.getFree() || !similarity.getDelivery().getAvailableForFree()){
+                        similarityPrice += lowestPrice.searchLowestDeliveryPrice(similarity.getSeller()).getAmount(); // maxSellerLowestPrice()
 
                     }
 //                    if(sellerParcelSize == 1){
@@ -54,13 +58,13 @@ public class GreedyHeuristic implements Heuristic {
             if(sellersParcels.containsKey(product.getSeller())){
                 OfferSellerParcel offerSellerParcel = sellersParcels.get(product.getSeller());
                 offerSellerParcel.addListingOffer(product);
-                if(offerSellerParcel.getFree() && !product.getDelivery().isAvailableForFree()){
-                    offerSellerParcel.setPrice(0.0); // maxSellerLowestPrice()
+                if(offerSellerParcel.getFree() && !product.getDelivery().getAvailableForFree()){
+                    offerSellerParcel.setPrice(lowestPrice.searchLowestDeliveryPrice(product.getSeller()).getAmount()); // maxSellerLowestPrice()
                     offerSellerParcel.setFree(false);
                 }
             } else{
                 OfferSellerParcel offerSellerParcel = new OfferSellerParcel();
-                offerSellerParcel.setFree(product.getDelivery().isAvailableForFree());
+                offerSellerParcel.setFree(product.getDelivery().getAvailableForFree());
                 offerSellerParcel.setPrice(product.getDelivery().getLowestPrice().getAmount());
                 offerSellerParcel.addListingOffer(product);
                 sellersParcels.put(product.getSeller(), offerSellerParcel);
