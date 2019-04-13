@@ -3,7 +3,7 @@ package com.example.spring.heuristic;
 import com.example.spring.heuristic.model.OfferSellerParcel;
 import com.example.spring.model.ListingOffer;
 import com.example.spring.model.OfferSeller;
-import com.example.spring.service.LowestPriceSearcherService;
+import com.example.spring.service.LowestMaxMinSearcherService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.*;
@@ -11,7 +11,7 @@ import java.util.*;
 public class LocalSearch implements Heuristic {
 
     @Autowired
-    private LowestPriceSearcherService lowestPrice;
+    private LowestMaxMinSearcherService lowestPrice;
 
     boolean returnInitialResult;
     InitialHeuristic initialHeuristic;
