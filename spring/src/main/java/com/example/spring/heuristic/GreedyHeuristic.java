@@ -6,12 +6,14 @@ import com.example.spring.model.OfferSeller;
 import com.example.spring.model.web.Basket;
 import com.example.spring.model.web.parts.Parcel;
 import com.example.spring.service.LowestPriceSearcherService;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.*;
 
 public class GreedyHeuristic implements Heuristic {
 
-    private LowestPriceSearcherService lowestPrice = new LowestPriceSearcherService();
+    @Autowired
+    private LowestPriceSearcherService lowestPrice;
 
     @Override
     public List<Basket> run(Map<ListingOffer, List<ListingOffer>> productsAndSimilarities, Integer maxParcels) {
