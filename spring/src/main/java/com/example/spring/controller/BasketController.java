@@ -68,7 +68,7 @@ public class BasketController {
     }
 
     @GetMapping("/proposes")
-    public ResponseEntity<ListWrapper<BasketWrapper>> getProposeOffers() {
+    public ResponseEntity<ListWrapper<BasketWrapper>> getProposeOffers(@RequestParam String algorithm, Integer maxPacket) {
         Map<ListingOffer, List<ListingOffer>> data = similaritySearcherService.searchSimilaryOffers(
                 new ArrayList<>(shoppingCartService.getProductsInCart()));
 
@@ -82,8 +82,11 @@ public class BasketController {
 
         RestTemplate rest = new RestTemplate();
 
-//        HttpEntity<ListWrapper<MapWrapper>> request = new HttpEntity<>(listWrapper);
-//        listWrapper = rest.postForObject("http://localhost:9000/api/filter", request, ListWrapper.class);
+        Map<String, String> params = new HashMap<>();
+        params.put("algorithm", algorithm);
+
+        HttpEntity<ListWrapper<MapWrapper>> request = new HttpEntity<>(listWrapper);
+        listWrapper = rest.postForObject("http://localhost:9000/api/filter", request, ListWrapper.class, params);
 
         Map<ListingOffer, List<ListingOffer>> newData = new HashMap<>();
         for (MapWrapper mapWrapper: listWrapper.getData()) {
