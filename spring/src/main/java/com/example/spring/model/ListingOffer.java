@@ -13,15 +13,15 @@ public class ListingOffer {
     OfferSellingMode sellingMode;
     OfferCategory category;
 
-    public List<OfferImages> getImages() {
-        return images;
-    }
-
-    public void setImages(List<OfferImages> images) {
-        this.images = images;
-    }
-
-    List<OfferImages> images;
+//    public List<OfferImages> getImages() {
+//        return images;
+//    }
+//
+//    public void setImages(List<OfferImages> images) {
+//        this.images = images;
+//    }
+//
+//    List<OfferImages> images;
 
     public String getId() {
         return id;

@@ -6,7 +6,8 @@ import com.example.spring.heuristic.util.ParcelConverter;
 import com.example.spring.model.ListingOffer;
 import com.example.spring.model.ListingResponseOffers;
 import com.example.spring.model.SearchOffers;
-import com.example.spring.model.web.ArrayWrapper;
+import com.example.spring.model.web.BasketWrapper;
+import com.example.spring.model.web.ListWrapper;
 import com.example.spring.model.web.Basket;
 import com.example.spring.model.web.MapWrapper;
 import com.example.spring.service.ShoppingCartService;
@@ -15,7 +16,6 @@ import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
-import org.springframework.http.client.ClientHttpRequestFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
@@ -24,9 +24,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping(path = "/api/cart")
+@CrossOrigin(origins = {"http://localhost:3000"}, allowCredentials = "true")
 public class BasketController {
 
     private ShoppingCartService shoppingCartService;
@@ -68,7 +70,7 @@ public class BasketController {
     }
 
     @GetMapping("/proposes")
-    public ResponseEntity<List<Basket>> getProposeOffers() {
+    public ResponseEntity<ListWrapper<BasketWrapper>> getProposeOffers() {
         Map<ListingOffer, List<ListingOffer>> data = similaritySearcherService.searchSimilaryOffers(
                 shoppingCartService.getProductsInCart());
 
@@ -78,21 +80,23 @@ public class BasketController {
             wrappedMap.add(new MapWrapper(e.getKey(), e.getValue()));
         }
 
-        ArrayWrapper arrayWrapper = new ArrayWrapper(wrappedMap);
+        ListWrapper<MapWrapper> listWrapper = new ListWrapper<>(wrappedMap);
 
         RestTemplate rest = new RestTemplate();
 
-        HttpEntity<ArrayWrapper> request = new HttpEntity<>(arrayWrapper);
-        arrayWrapper = rest.postForObject("http://localhost:9000/api/filter", request, ArrayWrapper.class);
+        HttpEntity<ListWrapper<MapWrapper>> request = new HttpEntity<>(listWrapper);
+//        listWrapper = rest.postForObject("http://localhost:9000/api/filter", request, ListWrapper.class);
 
         Map<ListingOffer, List<ListingOffer>> newData = new HashMap<>();
-        for (MapWrapper mapWrapper: arrayWrapper.getData()) {
+        for (MapWrapper mapWrapper: listWrapper.getData()) {
             newData.put(mapWrapper.getKey(), mapWrapper.getValue());
         }
-        
-        Heuristic heuristic = new GreedyHeuristic();
+
+        Heuristic heuristic = new GreedyHeuristic(true);
         List<Basket> b = ParcelConverter.convertSellersToParcels(heuristic.run(newData, 1));
-        return ResponseEntity.ok(b);
+        List<BasketWrapper> wrappedBaskets = b.stream().map(BasketWrapper::from).collect(Collectors.toList());
+        ListWrapper<BasketWrapper> response = new ListWrapper<>(wrappedBaskets);
+        return ResponseEntity.ok(response);
     }
 
     @GetMapping
