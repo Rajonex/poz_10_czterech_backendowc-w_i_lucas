@@ -2,6 +2,7 @@ package com.example.spring.controller;
 
 import com.example.spring.heuristic.GreedyHeuristic;
 import com.example.spring.heuristic.Heuristic;
+import com.example.spring.heuristic.util.ParcelConverter;
 import com.example.spring.model.ListingOffer;
 import com.example.spring.model.ListingResponseOffers;
 import com.example.spring.model.SearchOffers;
@@ -80,7 +81,7 @@ public class BasketController {
 
 
         Heuristic heuristic = new GreedyHeuristic();
-        List<Basket> b = heuristic.run(data, 1);
+        List<Basket> b = ParcelConverter.convertSellersToParcels(heuristic.run(data, 1));
         return ResponseEntity.ok(b);
     }
 
